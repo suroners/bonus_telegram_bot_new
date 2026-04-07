@@ -1,0 +1,372 @@
+Telegram Bot Microservice (Microservice #3)
+
+Give this entire prompt to Gemini.
+
+You are an expert Python backend architect.
+Your task is to generate a complete, production-ready Telegram Bot Microservice for a casino-bonus aggregation ecosystem.
+
+Follow all specifications exactly.
+
+🎯 PROJECT CONTEXT
+
+The system has 3 microservices:
+
+Scraping Microservice
+
+AI Parsing Microservice
+
+Telegram Bot Microservice (YOU ARE BUILDING THIS)
+
+This microservice:
+
+Sends bonus notifications to Telegram users
+
+Allows users to subscribe to specific GEOs
+
+Filters bonuses per user GEO
+
+Displays casino bonuses on request
+
+Handles affiliate links
+
+Runs fully in Docker
+
+Uses PostgreSQL
+
+Uses Redis (for caching & queues)
+
+Uses Celery for scheduled broadcasts
+
+Uses python-telegram-bot (latest async version)
+
+🗂️ DATABASE MODELS (Telegram Bot Microservice)
+
+Implement these Django models exactly:
+
+TelegramUser
+
+id
+
+telegram_id (unique)
+
+username (nullable)
+
+first_name (nullable)
+
+last_name (nullable)
+
+geo (nullable — auto-detected by Telegram IP or manually set)
+
+created_at
+
+updated_at
+
+UserSettings
+
+id
+
+user (FK → TelegramUser)
+
+notify_enabled (bool, default True)
+
+preferred_currency (nullable)
+
+preferred_language (default "en")
+
+receive_crypto_bonuses (bool)
+
+receive_freespins (bool)
+
+receive_deposit_bonuses (bool)
+
+created_at
+
+updated_at
+
+UserCasinoSubscription
+
+id
+
+user (FK → TelegramUser)
+
+casino_id
+
+created_at
+
+User can follow specific casinos.
+
+NotificationHistory
+
+id
+
+user (FK → TelegramUser)
+
+bonus_id
+
+casino_id
+
+sent_at
+
+status (SENT / FAILED)
+
+error_message (nullable)
+
+🔍 TELEGRAM BOT FUNCTIONALITY
+
+You must implement a fully working Telegram bot, async-based.
+
+Commands to implement:
+/start
+
+Registers new user
+
+Shows welcome message
+
+Explains how to use the bot
+
+/bonuses
+
+Shows the top 10 bonuses based on user GEO
+
+Displays affiliate links
+
+Beautiful Telegram formatting
+
+/casino <casino_name>
+
+Shows bonuses for that casino
+
+If not found → show similar casinos
+
+/geo
+
+Displays + lets user change location
+
+Supported: CA, AU, UK, FI, NO, DE, NZ, IN (example list)
+
+/settings
+
+Interactive settings menu:
+
+Toggle notifications
+
+Toggle bonus types
+
+Change currency
+
+Enable/disable crypto bonuses
+
+Use Telegram inline keyboards.
+
+/subscribe <casino>
+
+Subscribe user to casino-specific alerts.
+
+/unsubscribe <casino>
+
+Unsubscribe user from casino alerts.
+
+🔄 NOTIFICATION SYSTEM
+
+The bot listens to messages from AI Parsing Microservice queue:
+
+Example message:
+
+{
+  "bonus_id": 100,
+  "casino_id": 55,
+  "title": "100 Free Spins",
+  "geo": "CA"
+}
+
+
+Bot must:
+
+Load all Telegram users matching the same geo
+
+Check user settings
+
+Send notification
+
+Store record in NotificationHistory
+
+🔄 CELERY TASKS
+send_bonus_notifications()
+
+Consumes queue messages from AI Parsing Microservice.
+
+broadcast_daily_top_bonuses()
+
+Daily at 12:00
+Sends a digest:
+
+Top bonuses
+
+Based on user GEO
+
+cleanup_old_notifications()
+
+Deletes notifications older than 90 days.
+
+🔧 SYSTEM ARCHITECTURE REQUIREMENTS
+Required folders:
+telegram_service/
+    bot/
+        handlers/
+            start.py
+            bonuses.py
+            casino.py
+            settings.py
+            geo.py
+            subscriptions.py
+        keyboards/
+        utils/
+    services/
+        bonus_service.py
+        user_service.py
+        queue_consumer.py
+        publisher.py
+    repositories/
+        user_repository.py
+        bonus_repository.py
+        settings_repository.py
+    dtos/
+        bonus_dto.py
+        incoming_message_dto.py
+    api/
+        views.py
+        serializers.py
+    celery_app.py
+    urls.py
+
+Architecture patterns required:
+
+✔ Clean architecture
+✔ Repository pattern
+✔ Services layer
+✔ Pydantic DTOs
+✔ Async bot logic
+
+🤖 TELEGRAM BOT REQUIREMENTS
+
+Use:
+
+python-telegram-bot >= 21.x
+
+
+Must support:
+
+Async handlers
+
+Inline keyboards
+
+Callback queries
+
+Slash commands
+
+Error handling
+
+Middleware for logging
+
+🧩 REST API ENDPOINTS (Django DRF)
+/api/users/
+
+List users
+Filters: geo, date_from, date_to
+
+/api/bonuses/<bonus_id>/send/
+
+Manually trigger Telegram notifications for a bonus.
+
+/api/subscriptions/
+
+GET / POST / DELETE
+Manage casino subscriptions
+
+/api/settings/<user_id>/
+
+Update user settings
+
+🛠️ INFRA REQUIREMENTS
+Docker services:
+
+web (Django REST API + Telegram bot runner)
+
+worker (Celery worker)
+
+beat (Celery scheduler)
+
+postgres
+
+redis
+
+Dockerfile
+
+Must:
+
+Use Python 3.12
+
+Install python-telegram-bot
+
+Expose port 8000
+
+Run migrations
+
+docker-compose.yml
+
+Must include:
+
+Networks
+
+Volumes
+
+Healthchecks
+
+🗄️ ENVIRONMENT VARIABLES (.env.example)
+DJANGO_SECRET_KEY=
+POSTGRES_DB=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_HOST=
+POSTGRES_PORT=
+REDIS_URL=
+TELEGRAM_BOT_TOKEN=
+API_MICROSERVICE_URL=
+SCRAPER_MICROSERVICE_URL=
+
+📌 DELIVERABLES (Gemini MUST output)
+✔ Full directory structure
+✔ All source code, file-by-file
+✔ Django project + app
+✔ Telegram bot complete implementation
+✔ Async handlers + keyboards
+✔ Models + migrations
+✔ REST API
+✔ Celery tasks
+✔ Queue consumer (RabbitMQ or Redis)
+✔ Dockerfile
+✔ docker-compose.yml
+✔ README with setup instructions
+✔ Example .env
+✔ Pydantic DTOs
+✔ Tests (pytest)
+
+No placeholders.
+No summary-only.
+Everything must be runnable in Docker.
+
+
+📌 FINAL OUTPUT FORMAT FOR YOU (GEMINI)
+
+Generate:
+
+✔ Full directory structure
+✔ All code files
+✔ Dockerfile + docker-compose.yml
+✔ Migration files
+✔ Setup instructions
+✔ Example of running Celery worker
+✔ Example proxy config
+✔ Example Playwright scraper
+
+Now generate the complete implementation for the Telegram Bot Microservice based on everything above.
