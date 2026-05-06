@@ -1,0 +1,3930 @@
+[
+  {
+    "brand_id": 276,
+    "brand_name": "UNIBET",
+    "brand_slug": "bby",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+        "uk":"https://www.unibet.co.uk/promotions",
+        "au":"https://www.unibet.com.au/promotions",
+        "dk":"https://www.unibet.dk/promotions",
+        "ee":"https://www.unibet.ee/promotions",
+        "fi":"https://fi.unibet.com/promotions",
+        "fr":"https://www.unibet.fr/promotions",
+        "ei":"https://www.unibet.ie/promotions",
+        "mt":"https://www.unibet.mt/promotions",
+        "nl":"https://www.unibet.nl/promotions",
+        "ro":"https://www.unibet.ro/promotions",
+        "se":"https://www.unibet.se/promotions"
+    },
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 16308,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "6.36",
+        "position": 1,
+        "websites_found": 78
+      },
+      {
+        "geo_code": "dk",
+        "geo_name": "Denmark",
+        "brand_traffic_share": 6135,
+        "location_id": 40,
+        "total_share_of_traffic": 311206,
+        "market_share": "1.97",
+        "position": 13,
+        "websites_found": 220
+      },
+      {
+        "geo_code": "ch",
+        "geo_name": "Switzerland",
+        "brand_traffic_share": 1330,
+        "location_id": 19,
+        "total_share_of_traffic": 171612,
+        "market_share": "0.78",
+        "position": 25,
+        "websites_found": 104
+      },
+      {
+        "geo_code": "se",
+        "geo_name": "Sweden",
+        "brand_traffic_share": 47465,
+        "location_id": 7,
+        "total_share_of_traffic": 666039,
+        "market_share": "7.13",
+        "position": 3,
+        "websites_found": 349
+      },
+      {
+        "geo_code": "cg",
+        "geo_name": "Congo",
+        "brand_traffic_share": 16982,
+        "location_id": 79,
+        "total_share_of_traffic": 870728,
+        "market_share": "1.95",
+        "position": 11,
+        "websites_found": 47
+      },
+      {
+        "geo_code": "at",
+        "geo_name": "Austria",
+        "brand_traffic_share": 613,
+        "location_id": 14,
+        "total_share_of_traffic": 233700,
+        "market_share": "0.26",
+        "position": 75,
+        "websites_found": 158
+      },
+      {
+        "geo_code": "us",
+        "geo_name": "USA",
+        "brand_traffic_share": 29830,
+        "location_id": 1,
+        "total_share_of_traffic": 10864685,
+        "market_share": "0.27",
+        "position": 48,
+        "websites_found": 610
+      },
+      {
+        "geo_code": "jp",
+        "geo_name": "Japan",
+        "brand_traffic_share": 206,
+        "location_id": 33,
+        "total_share_of_traffic": 294593,
+        "market_share": "0.07",
+        "position": 107,
+        "websites_found": 89
+      },
+      {
+        "geo_code": "pl",
+        "geo_name": "Poland",
+        "brand_traffic_share": 7166,
+        "location_id": 43,
+        "total_share_of_traffic": 7112886,
+        "market_share": "0.10",
+        "position": 51,
+        "websites_found": 241
+      },
+      {
+        "geo_code": "si",
+        "geo_name": "Slovenia",
+        "brand_traffic_share": 260,
+        "location_id": 70,
+        "total_share_of_traffic": 63226,
+        "market_share": "0.41",
+        "position": 31,
+        "websites_found": 36
+      },
+      {
+        "geo_code": "ua",
+        "geo_name": "Ukraine",
+        "brand_traffic_share": 358,
+        "location_id": 92,
+        "total_share_of_traffic": 1626003,
+        "market_share": "0.02",
+        "position": 104,
+        "websites_found": 97
+      },
+      {
+        "geo_code": "ie",
+        "geo_name": "Ireland",
+        "brand_traffic_share": 221647,
+        "location_id": 15,
+        "total_share_of_traffic": 2138041,
+        "market_share": "10.37",
+        "position": 2,
+        "websites_found": 142
+      },
+      {
+        "geo_code": "ar-old",
+        "geo_name": "",
+        "brand_traffic_share": 319,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.09",
+        "position": 104,
+        "websites_found": 162
+      },
+      {
+        "geo_code": "ng",
+        "geo_name": "Nigeria",
+        "brand_traffic_share": 10220,
+        "location_id": 62,
+        "total_share_of_traffic": 2738527,
+        "market_share": "0.37",
+        "position": 20,
+        "websites_found": 78
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 1601,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "0.94",
+        "position": 23,
+        "websites_found": 95
+      },
+      {
+        "geo_code": "pt",
+        "geo_name": "Portugal",
+        "brand_traffic_share": 908,
+        "location_id": 41,
+        "total_share_of_traffic": 242864,
+        "market_share": "0.37",
+        "position": 37,
+        "websites_found": 108
+      },
+      {
+        "geo_code": "it",
+        "geo_name": "Italy",
+        "brand_traffic_share": 4688,
+        "location_id": 16,
+        "total_share_of_traffic": 2386114,
+        "market_share": "0.20",
+        "position": 36,
+        "websites_found": 288
+      },
+      {
+        "geo_code": "ro",
+        "geo_name": "Romania",
+        "brand_traffic_share": 29620,
+        "location_id": 42,
+        "total_share_of_traffic": 1252228,
+        "market_share": "2.37",
+        "position": 12,
+        "websites_found": 208
+      },
+      {
+        "geo_code": "tr",
+        "geo_name": "Turkey",
+        "brand_traffic_share": 13542,
+        "location_id": 35,
+        "total_share_of_traffic": 694046,
+        "market_share": "1.95",
+        "position": 6,
+        "websites_found": 228
+      },
+      {
+        "geo_code": "eg",
+        "geo_name": "Egypt",
+        "brand_traffic_share": 265,
+        "location_id": 74,
+        "total_share_of_traffic": 97648,
+        "market_share": "0.27",
+        "position": 23,
+        "websites_found": 91
+      },
+      {
+        "geo_code": "th",
+        "geo_name": "Thailand",
+        "brand_traffic_share": 772,
+        "location_id": 47,
+        "total_share_of_traffic": 188078,
+        "market_share": "0.41",
+        "position": 33,
+        "websites_found": 210
+      },
+      {
+        "geo_code": "be",
+        "geo_name": "Belgium",
+        "brand_traffic_share": 80407,
+        "location_id": 44,
+        "total_share_of_traffic": 227047,
+        "market_share": "35.41",
+        "position": 1,
+        "websites_found": 199
+      },
+      {
+        "geo_code": "lk",
+        "geo_name": "Sri Lanka",
+        "brand_traffic_share": 31266,
+        "location_id": 54,
+        "total_share_of_traffic": 602580,
+        "market_share": "5.19",
+        "position": 4,
+        "websites_found": 36
+      },
+      {
+        "geo_code": "no",
+        "geo_name": "Norway",
+        "brand_traffic_share": 3429,
+        "location_id": 17,
+        "total_share_of_traffic": 180377,
+        "market_share": "1.90",
+        "position": 9,
+        "websites_found": 248
+      },
+      {
+        "geo_code": "pe",
+        "geo_name": "Peru",
+        "brand_traffic_share": 417,
+        "location_id": 32,
+        "total_share_of_traffic": 2021063,
+        "market_share": "0.02",
+        "position": 80,
+        "websites_found": 60
+      },
+      {
+        "geo_code": "lt",
+        "geo_name": "Lithuania",
+        "brand_traffic_share": 156,
+        "location_id": 66,
+        "total_share_of_traffic": 30437,
+        "market_share": "0.51",
+        "position": 37,
+        "websites_found": 31
+      },
+      {
+        "geo_code": "ee",
+        "geo_name": "Estonia",
+        "brand_traffic_share": 676,
+        "location_id": 38,
+        "total_share_of_traffic": 32671,
+        "market_share": "2.07",
+        "position": 14,
+        "websites_found": 45
+      },
+      {
+        "geo_code": "fr",
+        "geo_name": "France",
+        "brand_traffic_share": 230334,
+        "location_id": 30,
+        "total_share_of_traffic": 1999079,
+        "market_share": "11.52",
+        "position": 2,
+        "websites_found": 277
+      },
+      {
+        "geo_code": "cz",
+        "geo_name": "Czech Republic",
+        "brand_traffic_share": 140,
+        "location_id": 53,
+        "total_share_of_traffic": 552176,
+        "market_share": "0.03",
+        "position": 105,
+        "websites_found": 90
+      },
+      {
+        "geo_code": "jm",
+        "geo_name": "Jamaica",
+        "brand_traffic_share": 573,
+        "location_id": 77,
+        "total_share_of_traffic": 23126,
+        "market_share": "2.48",
+        "position": 9,
+        "websites_found": 22
+      },
+      {
+        "geo_code": "ph",
+        "geo_name": "Philippines",
+        "brand_traffic_share": 960,
+        "location_id": 34,
+        "total_share_of_traffic": 718160,
+        "market_share": "0.13",
+        "position": 69,
+        "websites_found": 155
+      },
+      {
+        "geo_code": "nz",
+        "geo_name": "New Zealand",
+        "brand_traffic_share": 1400,
+        "location_id": 5,
+        "total_share_of_traffic": 288934,
+        "market_share": "0.48",
+        "position": 45,
+        "websites_found": 134
+      },
+      {
+        "geo_code": "ar",
+        "geo_name": "Argentina",
+        "brand_traffic_share": 319,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.09",
+        "position": 104,
+        "websites_found": 162
+      },
+      {
+        "geo_code": "co",
+        "geo_name": "Colombia",
+        "brand_traffic_share": 608,
+        "location_id": 58,
+        "total_share_of_traffic": 587410,
+        "market_share": "0.10",
+        "position": 47,
+        "websites_found": 112
+      },
+      {
+        "geo_code": "de",
+        "geo_name": "Germany",
+        "brand_traffic_share": 14196,
+        "location_id": 6,
+        "total_share_of_traffic": 2781758,
+        "market_share": "0.51",
+        "position": 38,
+        "websites_found": 295
+      },
+      {
+        "geo_code": "cy",
+        "geo_name": "Cyprus",
+        "brand_traffic_share": 2689,
+        "location_id": 67,
+        "total_share_of_traffic": 195336,
+        "market_share": "1.38",
+        "position": 11,
+        "websites_found": 67
+      },
+      {
+        "geo_code": "vn",
+        "geo_name": "Vietnam",
+        "brand_traffic_share": 383,
+        "location_id": 48,
+        "total_share_of_traffic": 320676,
+        "market_share": "0.12",
+        "position": 44,
+        "websites_found": 198
+      },
+      {
+        "geo_code": "hu",
+        "geo_name": "Hungary",
+        "brand_traffic_share": 3691,
+        "location_id": 36,
+        "total_share_of_traffic": 123009,
+        "market_share": "3.00",
+        "position": 8,
+        "websites_found": 161
+      },
+      {
+        "geo_code": "cl",
+        "geo_name": "Chile",
+        "brand_traffic_share": 862,
+        "location_id": 9,
+        "total_share_of_traffic": 152035,
+        "market_share": "0.57",
+        "position": 34,
+        "websites_found": 63
+      },
+      {
+        "geo_code": "tn",
+        "geo_name": "Tunisia",
+        "brand_traffic_share": 13045,
+        "location_id": 75,
+        "total_share_of_traffic": 613800,
+        "market_share": "2.13",
+        "position": 12,
+        "websites_found": 96
+      },
+      {
+        "geo_code": "kr",
+        "geo_name": "South Korea",
+        "brand_traffic_share": 256,
+        "location_id": 49,
+        "total_share_of_traffic": 91690,
+        "market_share": "0.28",
+        "position": 45,
+        "websites_found": 59
+      },
+      {
+        "geo_code": "in",
+        "geo_name": "India",
+        "brand_traffic_share": 17239,
+        "location_id": 8,
+        "total_share_of_traffic": 2572792,
+        "market_share": "0.67",
+        "position": 28,
+        "websites_found": 178
+      },
+      {
+        "geo_code": "es",
+        "geo_name": "Spain",
+        "brand_traffic_share": 9365,
+        "location_id": 29,
+        "total_share_of_traffic": 1177778,
+        "market_share": "0.80",
+        "position": 23,
+        "websites_found": 219
+      },
+      {
+        "geo_code": "mx",
+        "geo_name": "Mexico",
+        "brand_traffic_share": 655,
+        "location_id": 12,
+        "total_share_of_traffic": 1038993,
+        "market_share": "0.06",
+        "position": 76,
+        "websites_found": 142
+      },
+      {
+        "geo_code": "ca",
+        "geo_name": "Canada",
+        "brand_traffic_share": 5888,
+        "location_id": 2,
+        "total_share_of_traffic": 1299595,
+        "market_share": "0.45",
+        "position": 41,
+        "websites_found": 234
+      },
+      {
+        "geo_code": "ma",
+        "geo_name": "Morocco",
+        "brand_traffic_share": 17897,
+        "location_id": 31,
+        "total_share_of_traffic": 967196,
+        "market_share": "1.85",
+        "position": 6,
+        "websites_found": 66
+      },
+      {
+        "geo_code": "fi",
+        "geo_name": "Finland",
+        "brand_traffic_share": 8100,
+        "location_id": 10,
+        "total_share_of_traffic": 1167296,
+        "market_share": "0.69",
+        "position": 29,
+        "websites_found": 209
+      },
+      {
+        "geo_code": "gh",
+        "geo_name": "Ghana",
+        "brand_traffic_share": 798,
+        "location_id": 78,
+        "total_share_of_traffic": 283088,
+        "market_share": "0.28",
+        "position": 29,
+        "websites_found": 61
+      },
+      {
+        "geo_code": "au",
+        "geo_name": "Australia",
+        "brand_traffic_share": 24702,
+        "location_id": 4,
+        "total_share_of_traffic": 1124393,
+        "market_share": "2.20",
+        "position": 7,
+        "websites_found": 183
+      },
+      {
+        "geo_code": "id",
+        "geo_name": "Indonesia",
+        "brand_traffic_share": 2278,
+        "location_id": 52,
+        "total_share_of_traffic": 379078,
+        "market_share": "0.60",
+        "position": 26,
+        "websites_found": 242
+      },
+      {
+        "geo_code": "za",
+        "geo_name": "South Africa",
+        "brand_traffic_share": 16479,
+        "location_id": 18,
+        "total_share_of_traffic": 3408377,
+        "market_share": "0.48",
+        "position": 23,
+        "websites_found": 152
+      },
+      {
+        "geo_code": "nl",
+        "geo_name": "Netherlands",
+        "brand_traffic_share": 297074,
+        "location_id": 28,
+        "total_share_of_traffic": 1172062,
+        "market_share": "25.35",
+        "position": 1,
+        "websites_found": 289
+      },
+      {
+        "geo_code": "zm",
+        "geo_name": "Zambia",
+        "brand_traffic_share": 3310,
+        "location_id": 65,
+        "total_share_of_traffic": 122084,
+        "market_share": "2.71",
+        "position": 6,
+        "websites_found": 46
+      },
+      {
+        "geo_code": "br",
+        "geo_name": "Brazil",
+        "brand_traffic_share": 3303,
+        "location_id": 11,
+        "total_share_of_traffic": 1866640,
+        "market_share": "0.18",
+        "position": 63,
+        "websites_found": 268
+      },
+      {
+        "geo_code": "uk",
+        "geo_name": "UK",
+        "brand_traffic_share": 260614,
+        "location_id": 3,
+        "total_share_of_traffic": 7854406,
+        "market_share": "3.32",
+        "position": 9,
+        "websites_found": 415
+      },
+      {
+        "geo_code": "ke",
+        "geo_name": "Kenya",
+        "brand_traffic_share": 864,
+        "location_id": 61,
+        "total_share_of_traffic": 159221,
+        "market_share": "0.54",
+        "position": 23,
+        "websites_found": 51
+      },
+      {
+        "geo_code": "ru",
+        "geo_name": "Russia",
+        "brand_traffic_share": 2094,
+        "location_id": 37,
+        "total_share_of_traffic": 6139986,
+        "market_share": "0.03",
+        "position": 69,
+        "websites_found": 251
+      },
+      {
+        "geo_code": "gr",
+        "geo_name": "Greece",
+        "brand_traffic_share": 1046,
+        "location_id": 45,
+        "total_share_of_traffic": 4639125,
+        "market_share": "0.02",
+        "position": 42,
+        "websites_found": 123
+      },
+      {
+        "geo_code": "az",
+        "geo_name": "Azerbaijan",
+        "brand_traffic_share": 432,
+        "location_id": 68,
+        "total_share_of_traffic": 66939,
+        "market_share": "0.65",
+        "position": 21,
+        "websites_found": 27
+      },
+      {
+        "geo_code": "hr",
+        "geo_name": "Croatia",
+        "brand_traffic_share": 595,
+        "location_id": 60,
+        "total_share_of_traffic": 241654,
+        "market_share": "0.25",
+        "position": 35,
+        "websites_found": 54
+      },
+      {
+        "geo_code": "zw",
+        "geo_name": "Zimbabwe",
+        "brand_traffic_share": 1435,
+        "location_id": 80,
+        "total_share_of_traffic": 155754,
+        "market_share": "0.92",
+        "position": 7,
+        "websites_found": 55
+      },
+      {
+        "geo_code": "kw",
+        "geo_name": "Kuwait",
+        "brand_traffic_share": 197,
+        "location_id": 57,
+        "total_share_of_traffic": 5793,
+        "market_share": "3.40",
+        "position": 6,
+        "websites_found": 22
+      },
+      {
+        "geo_code": "bd",
+        "geo_name": "Bangladesh",
+        "brand_traffic_share": 3332,
+        "location_id": 51,
+        "total_share_of_traffic": 960805,
+        "market_share": "0.35",
+        "position": 33,
+        "websites_found": 60
+      },
+      {
+        "geo_code": "ae",
+        "geo_name": "UAE",
+        "brand_traffic_share": 1889,
+        "location_id": 56,
+        "total_share_of_traffic": 67835,
+        "market_share": "2.78",
+        "position": 7,
+        "websites_found": 126
+      },
+      {
+        "geo_code": "rs",
+        "geo_name": "Serbia",
+        "brand_traffic_share": 668,
+        "location_id": 55,
+        "total_share_of_traffic": 136936,
+        "market_share": "0.49",
+        "position": 18,
+        "websites_found": 48
+      },
+      {
+        "geo_code": "cm",
+        "geo_name": "Cameroon",
+        "brand_traffic_share": 15779,
+        "location_id": 89,
+        "total_share_of_traffic": 544275,
+        "market_share": "2.90",
+        "position": 5,
+        "websites_found": 65
+      }
+    ],
+    "verticals": [
+      {
+        "id": 4,
+        "name": "Casino"
+      },
+      {
+        "id": 1,
+        "name": "Sports"
+      },
+      {
+        "id": 3,
+        "name": "Bingo"
+      },
+      {
+        "id": 2,
+        "name": "E-Sports"
+      },
+      {
+        "id": 7,
+        "name": "Poker"
+      },
+      {
+        "id": 6,
+        "name": "Lotto"
+      }
+    ]
+  },
+  {
+    "brand_id": 2246,
+    "brand_name": "BETMGM",
+    "brand_slug": "8D61",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+        "default":["https://casino.betmgm.com/en/blog/best-welcome-casino-bonus/","https://casino.betmgm.com/en/blog/casino-bonuses-promotions/"]
+    },
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 6190,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "2.41",
+        "position": 13,
+        "websites_found": 66
+      },
+      {
+        "geo_code": "dk",
+        "geo_name": "Denmark",
+        "brand_traffic_share": 1229,
+        "location_id": 40,
+        "total_share_of_traffic": 311206,
+        "market_share": "0.39",
+        "position": 31,
+        "websites_found": 108
+      },
+      {
+        "geo_code": "ch",
+        "geo_name": "Switzerland",
+        "brand_traffic_share": 359,
+        "location_id": 19,
+        "total_share_of_traffic": 171612,
+        "market_share": "0.21",
+        "position": 66,
+        "websites_found": 47
+      },
+      {
+        "geo_code": "se",
+        "geo_name": "Sweden",
+        "brand_traffic_share": 22165,
+        "location_id": 7,
+        "total_share_of_traffic": 666039,
+        "market_share": "3.33",
+        "position": 7,
+        "websites_found": 159
+      },
+      {
+        "geo_code": "cg",
+        "geo_name": "Congo",
+        "brand_traffic_share": 341,
+        "location_id": 79,
+        "total_share_of_traffic": 870728,
+        "market_share": "0.04",
+        "position": 39,
+        "websites_found": 26
+      },
+      {
+        "geo_code": "at",
+        "geo_name": "Austria",
+        "brand_traffic_share": 263,
+        "location_id": 14,
+        "total_share_of_traffic": 233700,
+        "market_share": "0.11",
+        "position": 142,
+        "websites_found": 81
+      },
+      {
+        "geo_code": "us",
+        "geo_name": "USA",
+        "brand_traffic_share": 946166,
+        "location_id": 1,
+        "total_share_of_traffic": 10864685,
+        "market_share": "8.71",
+        "position": 2,
+        "websites_found": 348
+      },
+      {
+        "geo_code": "jp",
+        "geo_name": "Japan",
+        "brand_traffic_share": 305,
+        "location_id": 33,
+        "total_share_of_traffic": 294593,
+        "market_share": "0.10",
+        "position": 91,
+        "websites_found": 75
+      },
+      {
+        "geo_code": "pl",
+        "geo_name": "Poland",
+        "brand_traffic_share": 1670,
+        "location_id": 43,
+        "total_share_of_traffic": 7112886,
+        "market_share": "0.02",
+        "position": 107,
+        "websites_found": 113
+      },
+      {
+        "geo_code": "ua",
+        "geo_name": "Ukraine",
+        "brand_traffic_share": 172,
+        "location_id": 92,
+        "total_share_of_traffic": 1626003,
+        "market_share": "0.01",
+        "position": 147,
+        "websites_found": 67
+      },
+      {
+        "geo_code": "ie",
+        "geo_name": "Ireland",
+        "brand_traffic_share": 47879,
+        "location_id": 15,
+        "total_share_of_traffic": 2138041,
+        "market_share": "2.24",
+        "position": 13,
+        "websites_found": 103
+      },
+      {
+        "geo_code": "ar-old",
+        "geo_name": "",
+        "brand_traffic_share": 1112,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.30",
+        "position": 47,
+        "websites_found": 121
+      },
+      {
+        "geo_code": "ng",
+        "geo_name": "Nigeria",
+        "brand_traffic_share": 2014,
+        "location_id": 62,
+        "total_share_of_traffic": 2738527,
+        "market_share": "0.07",
+        "position": 51,
+        "websites_found": 66
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 2648,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "1.56",
+        "position": 12,
+        "websites_found": 79
+      },
+      {
+        "geo_code": "pt",
+        "geo_name": "Portugal",
+        "brand_traffic_share": 1616,
+        "location_id": 41,
+        "total_share_of_traffic": 242864,
+        "market_share": "0.67",
+        "position": 27,
+        "websites_found": 92
+      },
+      {
+        "geo_code": "it",
+        "geo_name": "Italy",
+        "brand_traffic_share": 2651,
+        "location_id": 16,
+        "total_share_of_traffic": 2386114,
+        "market_share": "0.11",
+        "position": 53,
+        "websites_found": 119
+      },
+      {
+        "geo_code": "ro",
+        "geo_name": "Romania",
+        "brand_traffic_share": 515,
+        "location_id": 42,
+        "total_share_of_traffic": 1252228,
+        "market_share": "0.04",
+        "position": 103,
+        "websites_found": 88
+      },
+      {
+        "geo_code": "tr",
+        "geo_name": "Turkey",
+        "brand_traffic_share": 5243,
+        "location_id": 35,
+        "total_share_of_traffic": 694046,
+        "market_share": "0.76",
+        "position": 36,
+        "websites_found": 133
+      },
+      {
+        "geo_code": "eg",
+        "geo_name": "Egypt",
+        "brand_traffic_share": 294,
+        "location_id": 74,
+        "total_share_of_traffic": 97648,
+        "market_share": "0.30",
+        "position": 20,
+        "websites_found": 78
+      },
+      {
+        "geo_code": "th",
+        "geo_name": "Thailand",
+        "brand_traffic_share": 2183,
+        "location_id": 47,
+        "total_share_of_traffic": 188078,
+        "market_share": "1.16",
+        "position": 16,
+        "websites_found": 130
+      },
+      {
+        "geo_code": "be",
+        "geo_name": "Belgium",
+        "brand_traffic_share": 5104,
+        "location_id": 44,
+        "total_share_of_traffic": 227047,
+        "market_share": "2.25",
+        "position": 7,
+        "websites_found": 92
+      },
+      {
+        "geo_code": "lk",
+        "geo_name": "Sri Lanka",
+        "brand_traffic_share": 70112,
+        "location_id": 54,
+        "total_share_of_traffic": 602580,
+        "market_share": "11.64",
+        "position": 1,
+        "websites_found": 36
+      },
+      {
+        "geo_code": "no",
+        "geo_name": "Norway",
+        "brand_traffic_share": 1146,
+        "location_id": 17,
+        "total_share_of_traffic": 180377,
+        "market_share": "0.64",
+        "position": 30,
+        "websites_found": 116
+      },
+      {
+        "geo_code": "pe",
+        "geo_name": "Peru",
+        "brand_traffic_share": 2324,
+        "location_id": 32,
+        "total_share_of_traffic": 2021063,
+        "market_share": "0.12",
+        "position": 42,
+        "websites_found": 50
+      },
+      {
+        "geo_code": "lv",
+        "geo_name": "Latvia",
+        "brand_traffic_share": 169,
+        "location_id": 81,
+        "total_share_of_traffic": 54300,
+        "market_share": "0.31",
+        "position": 57,
+        "websites_found": 21
+      },
+      {
+        "geo_code": "fr",
+        "geo_name": "France",
+        "brand_traffic_share": 3436,
+        "location_id": 30,
+        "total_share_of_traffic": 1999079,
+        "market_share": "0.17",
+        "position": 65,
+        "websites_found": 132
+      },
+      {
+        "geo_code": "cz",
+        "geo_name": "Czech Republic",
+        "brand_traffic_share": 178,
+        "location_id": 53,
+        "total_share_of_traffic": 552176,
+        "market_share": "0.03",
+        "position": 88,
+        "websites_found": 70
+      },
+      {
+        "geo_code": "jm",
+        "geo_name": "Jamaica",
+        "brand_traffic_share": 340,
+        "location_id": 77,
+        "total_share_of_traffic": 23126,
+        "market_share": "1.47",
+        "position": 16,
+        "websites_found": 42
+      },
+      {
+        "geo_code": "ph",
+        "geo_name": "Philippines",
+        "brand_traffic_share": 13286,
+        "location_id": 34,
+        "total_share_of_traffic": 718160,
+        "market_share": "1.85",
+        "position": 13,
+        "websites_found": 129
+      },
+      {
+        "geo_code": "nz",
+        "geo_name": "New Zealand",
+        "brand_traffic_share": 1750,
+        "location_id": 5,
+        "total_share_of_traffic": 288934,
+        "market_share": "0.61",
+        "position": 35,
+        "websites_found": 104
+      },
+      {
+        "geo_code": "ar",
+        "geo_name": "Argentina",
+        "brand_traffic_share": 1112,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.30",
+        "position": 47,
+        "websites_found": 121
+      },
+      {
+        "geo_code": "co",
+        "geo_name": "Colombia",
+        "brand_traffic_share": 4347,
+        "location_id": 58,
+        "total_share_of_traffic": 587410,
+        "market_share": "0.74",
+        "position": 24,
+        "websites_found": 108
+      },
+      {
+        "geo_code": "de",
+        "geo_name": "Germany",
+        "brand_traffic_share": 3766,
+        "location_id": 6,
+        "total_share_of_traffic": 2781758,
+        "market_share": "0.14",
+        "position": 115,
+        "websites_found": 147
+      },
+      {
+        "geo_code": "cy",
+        "geo_name": "Cyprus",
+        "brand_traffic_share": 527,
+        "location_id": 67,
+        "total_share_of_traffic": 195336,
+        "market_share": "0.27",
+        "position": 36,
+        "websites_found": 57
+      },
+      {
+        "geo_code": "vn",
+        "geo_name": "Vietnam",
+        "brand_traffic_share": 1150,
+        "location_id": 48,
+        "total_share_of_traffic": 320676,
+        "market_share": "0.36",
+        "position": 24,
+        "websites_found": 128
+      },
+      {
+        "geo_code": "hu",
+        "geo_name": "Hungary",
+        "brand_traffic_share": 771,
+        "location_id": 36,
+        "total_share_of_traffic": 123009,
+        "market_share": "0.63",
+        "position": 33,
+        "websites_found": 62
+      },
+      {
+        "geo_code": "cl",
+        "geo_name": "Chile",
+        "brand_traffic_share": 2055,
+        "location_id": 9,
+        "total_share_of_traffic": 152035,
+        "market_share": "1.35",
+        "position": 14,
+        "websites_found": 62
+      },
+      {
+        "geo_code": "kr",
+        "geo_name": "South Korea",
+        "brand_traffic_share": 594,
+        "location_id": 49,
+        "total_share_of_traffic": 91690,
+        "market_share": "0.65",
+        "position": 28,
+        "websites_found": 53
+      },
+      {
+        "geo_code": "in",
+        "geo_name": "India",
+        "brand_traffic_share": 22550,
+        "location_id": 8,
+        "total_share_of_traffic": 2572792,
+        "market_share": "0.88",
+        "position": 21,
+        "websites_found": 132
+      },
+      {
+        "geo_code": "es",
+        "geo_name": "Spain",
+        "brand_traffic_share": 11804,
+        "location_id": 29,
+        "total_share_of_traffic": 1177778,
+        "market_share": "1.00",
+        "position": 20,
+        "websites_found": 130
+      },
+      {
+        "geo_code": "mx",
+        "geo_name": "Mexico",
+        "brand_traffic_share": 16774,
+        "location_id": 12,
+        "total_share_of_traffic": 1038993,
+        "market_share": "1.61",
+        "position": 11,
+        "websites_found": 128
+      },
+      {
+        "geo_code": "ca",
+        "geo_name": "Canada",
+        "brand_traffic_share": 42591,
+        "location_id": 2,
+        "total_share_of_traffic": 1299595,
+        "market_share": "3.28",
+        "position": 6,
+        "websites_found": 192
+      },
+      {
+        "geo_code": "ma",
+        "geo_name": "Morocco",
+        "brand_traffic_share": 110,
+        "location_id": 31,
+        "total_share_of_traffic": 967196,
+        "market_share": "0.01",
+        "position": 56,
+        "websites_found": 33
+      },
+      {
+        "geo_code": "fi",
+        "geo_name": "Finland",
+        "brand_traffic_share": 1851,
+        "location_id": 10,
+        "total_share_of_traffic": 1167296,
+        "market_share": "0.16",
+        "position": 99,
+        "websites_found": 98
+      },
+      {
+        "geo_code": "bg",
+        "geo_name": "Bulgaria",
+        "brand_traffic_share": 377,
+        "location_id": 88,
+        "total_share_of_traffic": 1019912,
+        "market_share": "0.04",
+        "position": 28,
+        "websites_found": 27
+      },
+      {
+        "geo_code": "gh",
+        "geo_name": "Ghana",
+        "brand_traffic_share": 620,
+        "location_id": 78,
+        "total_share_of_traffic": 283088,
+        "market_share": "0.22",
+        "position": 32,
+        "websites_found": 54
+      },
+      {
+        "geo_code": "au",
+        "geo_name": "Australia",
+        "brand_traffic_share": 15175,
+        "location_id": 4,
+        "total_share_of_traffic": 1124393,
+        "market_share": "1.35",
+        "position": 19,
+        "websites_found": 140
+      },
+      {
+        "geo_code": "id",
+        "geo_name": "Indonesia",
+        "brand_traffic_share": 2426,
+        "location_id": 52,
+        "total_share_of_traffic": 379078,
+        "market_share": "0.64",
+        "position": 23,
+        "websites_found": 158
+      },
+      {
+        "geo_code": "za",
+        "geo_name": "South Africa",
+        "brand_traffic_share": 50603,
+        "location_id": 18,
+        "total_share_of_traffic": 3408377,
+        "market_share": "1.48",
+        "position": 10,
+        "websites_found": 114
+      },
+      {
+        "geo_code": "nl",
+        "geo_name": "Netherlands",
+        "brand_traffic_share": 31002,
+        "location_id": 28,
+        "total_share_of_traffic": 1172062,
+        "market_share": "2.65",
+        "position": 6,
+        "websites_found": 162
+      },
+      {
+        "geo_code": "zm",
+        "geo_name": "Zambia",
+        "brand_traffic_share": 395,
+        "location_id": 65,
+        "total_share_of_traffic": 122084,
+        "market_share": "0.32",
+        "position": 26,
+        "websites_found": 41
+      },
+      {
+        "geo_code": "ec",
+        "geo_name": "Ecuador",
+        "brand_traffic_share": 253,
+        "location_id": 59,
+        "total_share_of_traffic": 100468,
+        "market_share": "0.25",
+        "position": 23,
+        "websites_found": 18
+      },
+      {
+        "geo_code": "br",
+        "geo_name": "Brazil",
+        "brand_traffic_share": 37349,
+        "location_id": 11,
+        "total_share_of_traffic": 1866640,
+        "market_share": "2.00",
+        "position": 10,
+        "websites_found": 208
+      },
+      {
+        "geo_code": "uk",
+        "geo_name": "UK",
+        "brand_traffic_share": 571531,
+        "location_id": 3,
+        "total_share_of_traffic": 7854406,
+        "market_share": "7.28",
+        "position": 2,
+        "websites_found": 237
+      },
+      {
+        "geo_code": "ke",
+        "geo_name": "Kenya",
+        "brand_traffic_share": 633,
+        "location_id": 61,
+        "total_share_of_traffic": 159221,
+        "market_share": "0.40",
+        "position": 31,
+        "websites_found": 46
+      },
+      {
+        "geo_code": "ru",
+        "geo_name": "Russia",
+        "brand_traffic_share": 954,
+        "location_id": 37,
+        "total_share_of_traffic": 6139986,
+        "market_share": "0.02",
+        "position": 101,
+        "websites_found": 140
+      },
+      {
+        "geo_code": "gr",
+        "geo_name": "Greece",
+        "brand_traffic_share": 1379,
+        "location_id": 45,
+        "total_share_of_traffic": 4639125,
+        "market_share": "0.03",
+        "position": 34,
+        "websites_found": 90
+      },
+      {
+        "geo_code": "zw",
+        "geo_name": "Zimbabwe",
+        "brand_traffic_share": 228,
+        "location_id": 80,
+        "total_share_of_traffic": 155754,
+        "market_share": "0.15",
+        "position": 34,
+        "websites_found": 50
+      },
+      {
+        "geo_code": "bd",
+        "geo_name": "Bangladesh",
+        "brand_traffic_share": 885,
+        "location_id": 51,
+        "total_share_of_traffic": 960805,
+        "market_share": "0.09",
+        "position": 48,
+        "websites_found": 58
+      },
+      {
+        "geo_code": "ae",
+        "geo_name": "UAE",
+        "brand_traffic_share": 872,
+        "location_id": 56,
+        "total_share_of_traffic": 67835,
+        "market_share": "1.29",
+        "position": 22,
+        "websites_found": 101
+      },
+      {
+        "geo_code": "rs",
+        "geo_name": "Serbia",
+        "brand_traffic_share": 450,
+        "location_id": 55,
+        "total_share_of_traffic": 136936,
+        "market_share": "0.33",
+        "position": 29,
+        "websites_found": 43
+      },
+      {
+        "geo_code": "cm",
+        "geo_name": "Cameroon",
+        "brand_traffic_share": 152,
+        "location_id": 89,
+        "total_share_of_traffic": 544275,
+        "market_share": "0.03",
+        "position": 63,
+        "websites_found": 38
+      }
+    ],
+    "verticals": [
+      {
+        "id": 4,
+        "name": "Casino"
+      },
+      {
+        "id": 1,
+        "name": "Sports"
+      },
+      {
+        "id": 3,
+        "name": "Bingo"
+      },
+      {
+        "id": 6,
+        "name": "Lotto"
+      },
+      {
+        "id": 2,
+        "name": "E-Sports"
+      },
+      {
+        "id": 7,
+        "name": "Poker"
+      }
+    ]
+  },
+  {
+    "brand_id": 913,
+    "brand_name": "LADBROKES",
+    "brand_slug": "4RW",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+        "default":"https://www.ladbrokes.com/en/sports/promotions/all"
+     },
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 4497,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "1.75",
+        "position": 19,
+        "websites_found": 60
+      },
+      {
+        "geo_code": "dk",
+        "geo_name": "Denmark",
+        "brand_traffic_share": 309,
+        "location_id": 40,
+        "total_share_of_traffic": 311206,
+        "market_share": "0.10",
+        "position": 75,
+        "websites_found": 80
+      },
+      {
+        "geo_code": "ch",
+        "geo_name": "Switzerland",
+        "brand_traffic_share": 151,
+        "location_id": 19,
+        "total_share_of_traffic": 171612,
+        "market_share": "0.09",
+        "position": 121,
+        "websites_found": 42
+      },
+      {
+        "geo_code": "se",
+        "geo_name": "Sweden",
+        "brand_traffic_share": 376,
+        "location_id": 7,
+        "total_share_of_traffic": 666039,
+        "market_share": "0.06",
+        "position": 137,
+        "websites_found": 116
+      },
+      {
+        "geo_code": "us",
+        "geo_name": "USA",
+        "brand_traffic_share": 16203,
+        "location_id": 1,
+        "total_share_of_traffic": 10864685,
+        "market_share": "0.15",
+        "position": 73,
+        "websites_found": 241
+      },
+      {
+        "geo_code": "ie",
+        "geo_name": "Ireland",
+        "brand_traffic_share": 55236,
+        "location_id": 15,
+        "total_share_of_traffic": 2138041,
+        "market_share": "2.58",
+        "position": 11,
+        "websites_found": 113
+      },
+      {
+        "geo_code": "ar-old",
+        "geo_name": "",
+        "brand_traffic_share": 139,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.04",
+        "position": 166,
+        "websites_found": 75
+      },
+      {
+        "geo_code": "ng",
+        "geo_name": "Nigeria",
+        "brand_traffic_share": 1505,
+        "location_id": 62,
+        "total_share_of_traffic": 2738527,
+        "market_share": "0.06",
+        "position": 58,
+        "websites_found": 63
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 441,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "0.26",
+        "position": 67,
+        "websites_found": 56
+      },
+      {
+        "geo_code": "pt",
+        "geo_name": "Portugal",
+        "brand_traffic_share": 325,
+        "location_id": 41,
+        "total_share_of_traffic": 242864,
+        "market_share": "0.13",
+        "position": 73,
+        "websites_found": 57
+      },
+      {
+        "geo_code": "it",
+        "geo_name": "Italy",
+        "brand_traffic_share": 426,
+        "location_id": 16,
+        "total_share_of_traffic": 2386114,
+        "market_share": "0.02",
+        "position": 189,
+        "websites_found": 93
+      },
+      {
+        "geo_code": "ro",
+        "geo_name": "Romania",
+        "brand_traffic_share": 157,
+        "location_id": 42,
+        "total_share_of_traffic": 1252228,
+        "market_share": "0.01",
+        "position": 190,
+        "websites_found": 56
+      },
+      {
+        "geo_code": "tr",
+        "geo_name": "Turkey",
+        "brand_traffic_share": 10352,
+        "location_id": 35,
+        "total_share_of_traffic": 694046,
+        "market_share": "1.49",
+        "position": 16,
+        "websites_found": 111
+      },
+      {
+        "geo_code": "th",
+        "geo_name": "Thailand",
+        "brand_traffic_share": 521,
+        "location_id": 47,
+        "total_share_of_traffic": 188078,
+        "market_share": "0.28",
+        "position": 46,
+        "websites_found": 119
+      },
+      {
+        "geo_code": "be",
+        "geo_name": "Belgium",
+        "brand_traffic_share": 2112,
+        "location_id": 44,
+        "total_share_of_traffic": 227047,
+        "market_share": "0.93",
+        "position": 14,
+        "websites_found": 103
+      },
+      {
+        "geo_code": "lk",
+        "geo_name": "Sri Lanka",
+        "brand_traffic_share": 22257,
+        "location_id": 54,
+        "total_share_of_traffic": 602580,
+        "market_share": "3.69",
+        "position": 11,
+        "websites_found": 41
+      },
+      {
+        "geo_code": "no",
+        "geo_name": "Norway",
+        "brand_traffic_share": 367,
+        "location_id": 17,
+        "total_share_of_traffic": 180377,
+        "market_share": "0.20",
+        "position": 110,
+        "websites_found": 81
+      },
+      {
+        "geo_code": "pe",
+        "geo_name": "Peru",
+        "brand_traffic_share": 228,
+        "location_id": 32,
+        "total_share_of_traffic": 2021063,
+        "market_share": "0.01",
+        "position": 101,
+        "websites_found": 37
+      },
+      {
+        "geo_code": "fr",
+        "geo_name": "France",
+        "brand_traffic_share": 938,
+        "location_id": 30,
+        "total_share_of_traffic": 1999079,
+        "market_share": "0.05",
+        "position": 163,
+        "websites_found": 98
+      },
+      {
+        "geo_code": "jm",
+        "geo_name": "Jamaica",
+        "brand_traffic_share": 1105,
+        "location_id": 77,
+        "total_share_of_traffic": 23126,
+        "market_share": "4.78",
+        "position": 4,
+        "websites_found": 22
+      },
+      {
+        "geo_code": "ph",
+        "geo_name": "Philippines",
+        "brand_traffic_share": 289,
+        "location_id": 34,
+        "total_share_of_traffic": 718160,
+        "market_share": "0.04",
+        "position": 133,
+        "websites_found": 95
+      },
+      {
+        "geo_code": "nz",
+        "geo_name": "New Zealand",
+        "brand_traffic_share": 3172,
+        "location_id": 5,
+        "total_share_of_traffic": 288934,
+        "market_share": "1.10",
+        "position": 18,
+        "websites_found": 91
+      },
+      {
+        "geo_code": "ar",
+        "geo_name": "Argentina",
+        "brand_traffic_share": 139,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.04",
+        "position": 166,
+        "websites_found": 75
+      },
+      {
+        "geo_code": "co",
+        "geo_name": "Colombia",
+        "brand_traffic_share": 260,
+        "location_id": 58,
+        "total_share_of_traffic": 587410,
+        "market_share": "0.04",
+        "position": 68,
+        "websites_found": 61
+      },
+      {
+        "geo_code": "de",
+        "geo_name": "Germany",
+        "brand_traffic_share": 1233,
+        "location_id": 6,
+        "total_share_of_traffic": 2781758,
+        "market_share": "0.04",
+        "position": 267,
+        "websites_found": 136
+      },
+      {
+        "geo_code": "cy",
+        "geo_name": "Cyprus",
+        "brand_traffic_share": 906,
+        "location_id": 67,
+        "total_share_of_traffic": 195336,
+        "market_share": "0.46",
+        "position": 26,
+        "websites_found": 46
+      },
+      {
+        "geo_code": "vn",
+        "geo_name": "Vietnam",
+        "brand_traffic_share": 265,
+        "location_id": 48,
+        "total_share_of_traffic": 320676,
+        "market_share": "0.08",
+        "position": 56,
+        "websites_found": 96
+      },
+      {
+        "geo_code": "cl",
+        "geo_name": "Chile",
+        "brand_traffic_share": 480,
+        "location_id": 9,
+        "total_share_of_traffic": 152035,
+        "market_share": "0.32",
+        "position": 55,
+        "websites_found": 27
+      },
+      {
+        "geo_code": "in",
+        "geo_name": "India",
+        "brand_traffic_share": 9835,
+        "location_id": 8,
+        "total_share_of_traffic": 2572792,
+        "market_share": "0.38",
+        "position": 46,
+        "websites_found": 116
+      },
+      {
+        "geo_code": "es",
+        "geo_name": "Spain",
+        "brand_traffic_share": 3914,
+        "location_id": 29,
+        "total_share_of_traffic": 1177778,
+        "market_share": "0.33",
+        "position": 49,
+        "websites_found": 99
+      },
+      {
+        "geo_code": "mx",
+        "geo_name": "Mexico",
+        "brand_traffic_share": 238,
+        "location_id": 12,
+        "total_share_of_traffic": 1038993,
+        "market_share": "0.02",
+        "position": 143,
+        "websites_found": 69
+      },
+      {
+        "geo_code": "ca",
+        "geo_name": "Canada",
+        "brand_traffic_share": 2065,
+        "location_id": 2,
+        "total_share_of_traffic": 1299595,
+        "market_share": "0.16",
+        "position": 91,
+        "websites_found": 109
+      },
+      {
+        "geo_code": "ma",
+        "geo_name": "Morocco",
+        "brand_traffic_share": 161,
+        "location_id": 31,
+        "total_share_of_traffic": 967196,
+        "market_share": "0.02",
+        "position": 44,
+        "websites_found": 25
+      },
+      {
+        "geo_code": "gh",
+        "geo_name": "Ghana",
+        "brand_traffic_share": 184,
+        "location_id": 78,
+        "total_share_of_traffic": 283088,
+        "market_share": "0.07",
+        "position": 62,
+        "websites_found": 47
+      },
+      {
+        "geo_code": "au",
+        "geo_name": "Australia",
+        "brand_traffic_share": 83076,
+        "location_id": 4,
+        "total_share_of_traffic": 1124393,
+        "market_share": "7.39",
+        "position": 1,
+        "websites_found": 128
+      },
+      {
+        "geo_code": "id",
+        "geo_name": "Indonesia",
+        "brand_traffic_share": 350,
+        "location_id": 52,
+        "total_share_of_traffic": 379078,
+        "market_share": "0.09",
+        "position": 88,
+        "websites_found": 119
+      },
+      {
+        "geo_code": "za",
+        "geo_name": "South Africa",
+        "brand_traffic_share": 15532,
+        "location_id": 18,
+        "total_share_of_traffic": 3408377,
+        "market_share": "0.46",
+        "position": 27,
+        "websites_found": 112
+      },
+      {
+        "geo_code": "nl",
+        "geo_name": "Netherlands",
+        "brand_traffic_share": 757,
+        "location_id": 28,
+        "total_share_of_traffic": 1172062,
+        "market_share": "0.06",
+        "position": 111,
+        "websites_found": 102
+      },
+      {
+        "geo_code": "zm",
+        "geo_name": "Zambia",
+        "brand_traffic_share": 246,
+        "location_id": 65,
+        "total_share_of_traffic": 122084,
+        "market_share": "0.20",
+        "position": 32,
+        "websites_found": 38
+      },
+      {
+        "geo_code": "br",
+        "geo_name": "Brazil",
+        "brand_traffic_share": 548,
+        "location_id": 11,
+        "total_share_of_traffic": 1866640,
+        "market_share": "0.03",
+        "position": 199,
+        "websites_found": 113
+      },
+      {
+        "geo_code": "uk",
+        "geo_name": "UK",
+        "brand_traffic_share": 159076,
+        "location_id": 3,
+        "total_share_of_traffic": 7854406,
+        "market_share": "2.03",
+        "position": 14,
+        "websites_found": 336
+      },
+      {
+        "geo_code": "ke",
+        "geo_name": "Kenya",
+        "brand_traffic_share": 157,
+        "location_id": 61,
+        "total_share_of_traffic": 159221,
+        "market_share": "0.10",
+        "position": 64,
+        "websites_found": 39
+      },
+      {
+        "geo_code": "ru",
+        "geo_name": "Russia",
+        "brand_traffic_share": 574,
+        "location_id": 37,
+        "total_share_of_traffic": 6139986,
+        "market_share": "0.01",
+        "position": 139,
+        "websites_found": 132
+      },
+      {
+        "geo_code": "gr",
+        "geo_name": "Greece",
+        "brand_traffic_share": 292,
+        "location_id": 45,
+        "total_share_of_traffic": 4639125,
+        "market_share": "0.01",
+        "position": 114,
+        "websites_found": 76
+      },
+      {
+        "geo_code": "zw",
+        "geo_name": "Zimbabwe",
+        "brand_traffic_share": 205,
+        "location_id": 80,
+        "total_share_of_traffic": 155754,
+        "market_share": "0.13",
+        "position": 37,
+        "websites_found": 43
+      },
+      {
+        "geo_code": "bd",
+        "geo_name": "Bangladesh",
+        "brand_traffic_share": 1917,
+        "location_id": 51,
+        "total_share_of_traffic": 960805,
+        "market_share": "0.20",
+        "position": 38,
+        "websites_found": 40
+      },
+      {
+        "geo_code": "ae",
+        "geo_name": "UAE",
+        "brand_traffic_share": 1389,
+        "location_id": 56,
+        "total_share_of_traffic": 67835,
+        "market_share": "2.05",
+        "position": 14,
+        "websites_found": 68
+      },
+      {
+        "geo_code": "rs",
+        "geo_name": "Serbia",
+        "brand_traffic_share": 253,
+        "location_id": 55,
+        "total_share_of_traffic": 136936,
+        "market_share": "0.18",
+        "position": 53,
+        "websites_found": 25
+      }
+    ],
+    "verticals": [
+      {
+        "id": 1,
+        "name": "Sports"
+      },
+      {
+        "id": 6,
+        "name": "Lotto"
+      },
+      {
+        "id": 4,
+        "name": "Casino"
+      },
+      {
+        "id": 3,
+        "name": "Bingo"
+      },
+      {
+        "id": 2,
+        "name": "E-Sports"
+      },
+      {
+        "id": 7,
+        "name": "Poker"
+      }
+    ]
+  },
+  {
+    "brand_id": 429,
+    "brand_name": "WILLIAM HILL",
+    "brand_slug": "Zep",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+          "default":"https://sports.williamhill.com/betting/en-gb/apps/promotions"
+      },  
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 3955,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "1.54",
+        "position": 21,
+        "websites_found": 78
+      },
+      {
+        "geo_code": "dk",
+        "geo_name": "Denmark",
+        "brand_traffic_share": 730,
+        "location_id": 40,
+        "total_share_of_traffic": 311206,
+        "market_share": "0.23",
+        "position": 43,
+        "websites_found": 111
+      },
+      {
+        "geo_code": "ch",
+        "geo_name": "Switzerland",
+        "brand_traffic_share": 313,
+        "location_id": 19,
+        "total_share_of_traffic": 171612,
+        "market_share": "0.18",
+        "position": 71,
+        "websites_found": 92
+      },
+      {
+        "geo_code": "se",
+        "geo_name": "Sweden",
+        "brand_traffic_share": 1289,
+        "location_id": 7,
+        "total_share_of_traffic": 666039,
+        "market_share": "0.19",
+        "position": 69,
+        "websites_found": 245
+      },
+      {
+        "geo_code": "cg",
+        "geo_name": "Congo",
+        "brand_traffic_share": 290,
+        "location_id": 79,
+        "total_share_of_traffic": 870728,
+        "market_share": "0.03",
+        "position": 42,
+        "websites_found": 27
+      },
+      {
+        "geo_code": "at",
+        "geo_name": "Austria",
+        "brand_traffic_share": 568,
+        "location_id": 14,
+        "total_share_of_traffic": 233700,
+        "market_share": "0.24",
+        "position": 83,
+        "websites_found": 126
+      },
+      {
+        "geo_code": "us",
+        "geo_name": "USA",
+        "brand_traffic_share": 48757,
+        "location_id": 1,
+        "total_share_of_traffic": 10864685,
+        "market_share": "0.45",
+        "position": 31,
+        "websites_found": 479
+      },
+      {
+        "geo_code": "jp",
+        "geo_name": "Japan",
+        "brand_traffic_share": 2093,
+        "location_id": 33,
+        "total_share_of_traffic": 294593,
+        "market_share": "0.71",
+        "position": 29,
+        "websites_found": 121
+      },
+      {
+        "geo_code": "pl",
+        "geo_name": "Poland",
+        "brand_traffic_share": 1086,
+        "location_id": 43,
+        "total_share_of_traffic": 7112886,
+        "market_share": "0.02",
+        "position": 131,
+        "websites_found": 166
+      },
+      {
+        "geo_code": "mz",
+        "geo_name": "Mozambique",
+        "brand_traffic_share": 110,
+        "location_id": 91,
+        "total_share_of_traffic": 130799,
+        "market_share": "0.08",
+        "position": 25,
+        "websites_found": 21
+      },
+      {
+        "geo_code": "si",
+        "geo_name": "Slovenia",
+        "brand_traffic_share": 362,
+        "location_id": 70,
+        "total_share_of_traffic": 63226,
+        "market_share": "0.57",
+        "position": 27,
+        "websites_found": 44
+      },
+      {
+        "geo_code": "ua",
+        "geo_name": "Ukraine",
+        "brand_traffic_share": 283,
+        "location_id": 92,
+        "total_share_of_traffic": 1626003,
+        "market_share": "0.02",
+        "position": 117,
+        "websites_found": 103
+      },
+      {
+        "geo_code": "ie",
+        "geo_name": "Ireland",
+        "brand_traffic_share": 78055,
+        "location_id": 15,
+        "total_share_of_traffic": 2138041,
+        "market_share": "3.65",
+        "position": 8,
+        "websites_found": 145
+      },
+      {
+        "geo_code": "ar-old",
+        "geo_name": "",
+        "brand_traffic_share": 1578,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.42",
+        "position": 35,
+        "websites_found": 161
+      },
+      {
+        "geo_code": "ng",
+        "geo_name": "Nigeria",
+        "brand_traffic_share": 11936,
+        "location_id": 62,
+        "total_share_of_traffic": 2738527,
+        "market_share": "0.44",
+        "position": 19,
+        "websites_found": 93
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 1136,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "0.67",
+        "position": 29,
+        "websites_found": 83
+      },
+      {
+        "geo_code": "pt",
+        "geo_name": "Portugal",
+        "brand_traffic_share": 823,
+        "location_id": 41,
+        "total_share_of_traffic": 242864,
+        "market_share": "0.34",
+        "position": 39,
+        "websites_found": 89
+      },
+      {
+        "geo_code": "it",
+        "geo_name": "Italy",
+        "brand_traffic_share": 43648,
+        "location_id": 16,
+        "total_share_of_traffic": 2386114,
+        "market_share": "1.83",
+        "position": 13,
+        "websites_found": 326
+      },
+      {
+        "geo_code": "ro",
+        "geo_name": "Romania",
+        "brand_traffic_share": 606,
+        "location_id": 42,
+        "total_share_of_traffic": 1252228,
+        "market_share": "0.05",
+        "position": 96,
+        "websites_found": 113
+      },
+      {
+        "geo_code": "tr",
+        "geo_name": "Turkey",
+        "brand_traffic_share": 11951,
+        "location_id": 35,
+        "total_share_of_traffic": 694046,
+        "market_share": "1.72",
+        "position": 11,
+        "websites_found": 189
+      },
+      {
+        "geo_code": "eg",
+        "geo_name": "Egypt",
+        "brand_traffic_share": 310,
+        "location_id": 74,
+        "total_share_of_traffic": 97648,
+        "market_share": "0.32",
+        "position": 18,
+        "websites_found": 73
+      },
+      {
+        "geo_code": "th",
+        "geo_name": "Thailand",
+        "brand_traffic_share": 965,
+        "location_id": 47,
+        "total_share_of_traffic": 188078,
+        "market_share": "0.51",
+        "position": 26,
+        "websites_found": 168
+      },
+      {
+        "geo_code": "be",
+        "geo_name": "Belgium",
+        "brand_traffic_share": 468,
+        "location_id": 44,
+        "total_share_of_traffic": 227047,
+        "market_share": "0.21",
+        "position": 55,
+        "websites_found": 73
+      },
+      {
+        "geo_code": "lk",
+        "geo_name": "Sri Lanka",
+        "brand_traffic_share": 22492,
+        "location_id": 54,
+        "total_share_of_traffic": 602580,
+        "market_share": "3.73",
+        "position": 10,
+        "websites_found": 50
+      },
+      {
+        "geo_code": "no",
+        "geo_name": "Norway",
+        "brand_traffic_share": 704,
+        "location_id": 17,
+        "total_share_of_traffic": 180377,
+        "market_share": "0.39",
+        "position": 52,
+        "websites_found": 138
+      },
+      {
+        "geo_code": "pe",
+        "geo_name": "Peru",
+        "brand_traffic_share": 26136,
+        "location_id": 32,
+        "total_share_of_traffic": 2021063,
+        "market_share": "1.29",
+        "position": 15,
+        "websites_found": 78
+      },
+      {
+        "geo_code": "lt",
+        "geo_name": "Lithuania",
+        "brand_traffic_share": 121,
+        "location_id": 66,
+        "total_share_of_traffic": 30437,
+        "market_share": "0.40",
+        "position": 50,
+        "websites_found": 29
+      },
+      {
+        "geo_code": "lv",
+        "geo_name": "Latvia",
+        "brand_traffic_share": 478,
+        "location_id": 81,
+        "total_share_of_traffic": 54300,
+        "market_share": "0.88",
+        "position": 24,
+        "websites_found": 36
+      },
+      {
+        "geo_code": "fr",
+        "geo_name": "France",
+        "brand_traffic_share": 3698,
+        "location_id": 30,
+        "total_share_of_traffic": 1999079,
+        "market_share": "0.19",
+        "position": 57,
+        "websites_found": 158
+      },
+      {
+        "geo_code": "cz",
+        "geo_name": "Czech Republic",
+        "brand_traffic_share": 281,
+        "location_id": 53,
+        "total_share_of_traffic": 552176,
+        "market_share": "0.05",
+        "position": 71,
+        "websites_found": 79
+      },
+      {
+        "geo_code": "jm",
+        "geo_name": "Jamaica",
+        "brand_traffic_share": 515,
+        "location_id": 77,
+        "total_share_of_traffic": 23126,
+        "market_share": "2.23",
+        "position": 11,
+        "websites_found": 32
+      },
+      {
+        "geo_code": "ph",
+        "geo_name": "Philippines",
+        "brand_traffic_share": 1289,
+        "location_id": 34,
+        "total_share_of_traffic": 718160,
+        "market_share": "0.18",
+        "position": 61,
+        "websites_found": 154
+      },
+      {
+        "geo_code": "nz",
+        "geo_name": "New Zealand",
+        "brand_traffic_share": 423,
+        "location_id": 5,
+        "total_share_of_traffic": 288934,
+        "market_share": "0.15",
+        "position": 121,
+        "websites_found": 126
+      },
+      {
+        "geo_code": "ar",
+        "geo_name": "Argentina",
+        "brand_traffic_share": 1578,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.42",
+        "position": 35,
+        "websites_found": 161
+      },
+      {
+        "geo_code": "co",
+        "geo_name": "Colombia",
+        "brand_traffic_share": 6622,
+        "location_id": 58,
+        "total_share_of_traffic": 587410,
+        "market_share": "1.13",
+        "position": 19,
+        "websites_found": 140
+      },
+      {
+        "geo_code": "de",
+        "geo_name": "Germany",
+        "brand_traffic_share": 5371,
+        "location_id": 6,
+        "total_share_of_traffic": 2781758,
+        "market_share": "0.19",
+        "position": 86,
+        "websites_found": 254
+      },
+      {
+        "geo_code": "cy",
+        "geo_name": "Cyprus",
+        "brand_traffic_share": 1403,
+        "location_id": 67,
+        "total_share_of_traffic": 195336,
+        "market_share": "0.72",
+        "position": 20,
+        "websites_found": 55
+      },
+      {
+        "geo_code": "vn",
+        "geo_name": "Vietnam",
+        "brand_traffic_share": 444,
+        "location_id": 48,
+        "total_share_of_traffic": 320676,
+        "market_share": "0.14",
+        "position": 40,
+        "websites_found": 169
+      },
+      {
+        "geo_code": "hu",
+        "geo_name": "Hungary",
+        "brand_traffic_share": 235,
+        "location_id": 36,
+        "total_share_of_traffic": 123009,
+        "market_share": "0.19",
+        "position": 76,
+        "websites_found": 106
+      },
+      {
+        "geo_code": "cl",
+        "geo_name": "Chile",
+        "brand_traffic_share": 2502,
+        "location_id": 9,
+        "total_share_of_traffic": 152035,
+        "market_share": "1.65",
+        "position": 10,
+        "websites_found": 61
+      },
+      {
+        "geo_code": "tn",
+        "geo_name": "Tunisia",
+        "brand_traffic_share": 702,
+        "location_id": 75,
+        "total_share_of_traffic": 613800,
+        "market_share": "0.11",
+        "position": 74,
+        "websites_found": 78
+      },
+      {
+        "geo_code": "kr",
+        "geo_name": "South Korea",
+        "brand_traffic_share": 748,
+        "location_id": 49,
+        "total_share_of_traffic": 91690,
+        "market_share": "0.82",
+        "position": 22,
+        "websites_found": 64
+      },
+      {
+        "geo_code": "in",
+        "geo_name": "India",
+        "brand_traffic_share": 14979,
+        "location_id": 8,
+        "total_share_of_traffic": 2572792,
+        "market_share": "0.58",
+        "position": 33,
+        "websites_found": 173
+      },
+      {
+        "geo_code": "es",
+        "geo_name": "Spain",
+        "brand_traffic_share": 17063,
+        "location_id": 29,
+        "total_share_of_traffic": 1177778,
+        "market_share": "1.45",
+        "position": 16,
+        "websites_found": 261
+      },
+      {
+        "geo_code": "mx",
+        "geo_name": "Mexico",
+        "brand_traffic_share": 7455,
+        "location_id": 12,
+        "total_share_of_traffic": 1038993,
+        "market_share": "0.72",
+        "position": 24,
+        "websites_found": 158
+      },
+      {
+        "geo_code": "ca",
+        "geo_name": "Canada",
+        "brand_traffic_share": 6892,
+        "location_id": 2,
+        "total_share_of_traffic": 1299595,
+        "market_share": "0.53",
+        "position": 36,
+        "websites_found": 184
+      },
+      {
+        "geo_code": "ma",
+        "geo_name": "Morocco",
+        "brand_traffic_share": 382,
+        "location_id": 31,
+        "total_share_of_traffic": 967196,
+        "market_share": "0.04",
+        "position": 29,
+        "websites_found": 38
+      },
+      {
+        "geo_code": "fi",
+        "geo_name": "Finland",
+        "brand_traffic_share": 1020,
+        "location_id": 10,
+        "total_share_of_traffic": 1167296,
+        "market_share": "0.09",
+        "position": 144,
+        "websites_found": 133
+      },
+      {
+        "geo_code": "gh",
+        "geo_name": "Ghana",
+        "brand_traffic_share": 1774,
+        "location_id": 78,
+        "total_share_of_traffic": 283088,
+        "market_share": "0.63",
+        "position": 14,
+        "websites_found": 70
+      },
+      {
+        "geo_code": "au",
+        "geo_name": "Australia",
+        "brand_traffic_share": 6407,
+        "location_id": 4,
+        "total_share_of_traffic": 1124393,
+        "market_share": "0.57",
+        "position": 32,
+        "websites_found": 159
+      },
+      {
+        "geo_code": "id",
+        "geo_name": "Indonesia",
+        "brand_traffic_share": 1763,
+        "location_id": 52,
+        "total_share_of_traffic": 379078,
+        "market_share": "0.47",
+        "position": 28,
+        "websites_found": 192
+      },
+      {
+        "geo_code": "za",
+        "geo_name": "South Africa",
+        "brand_traffic_share": 18099,
+        "location_id": 18,
+        "total_share_of_traffic": 3408377,
+        "market_share": "0.53",
+        "position": 21,
+        "websites_found": 151
+      },
+      {
+        "geo_code": "nl",
+        "geo_name": "Netherlands",
+        "brand_traffic_share": 4507,
+        "location_id": 28,
+        "total_share_of_traffic": 1172062,
+        "market_share": "0.38",
+        "position": 38,
+        "websites_found": 145
+      },
+      {
+        "geo_code": "zm",
+        "geo_name": "Zambia",
+        "brand_traffic_share": 3130,
+        "location_id": 65,
+        "total_share_of_traffic": 122084,
+        "market_share": "2.56",
+        "position": 7,
+        "websites_found": 54
+      },
+      {
+        "geo_code": "ec",
+        "geo_name": "Ecuador",
+        "brand_traffic_share": 2548,
+        "location_id": 59,
+        "total_share_of_traffic": 100468,
+        "market_share": "2.54",
+        "position": 11,
+        "websites_found": 22
+      },
+      {
+        "geo_code": "br",
+        "geo_name": "Brazil",
+        "brand_traffic_share": 2013,
+        "location_id": 11,
+        "total_share_of_traffic": 1866640,
+        "market_share": "0.11",
+        "position": 89,
+        "websites_found": 215
+      },
+      {
+        "geo_code": "uk",
+        "geo_name": "UK",
+        "brand_traffic_share": 367475,
+        "location_id": 3,
+        "total_share_of_traffic": 7854406,
+        "market_share": "4.68",
+        "position": 6,
+        "websites_found": 463
+      },
+      {
+        "geo_code": "ke",
+        "geo_name": "Kenya",
+        "brand_traffic_share": 783,
+        "location_id": 61,
+        "total_share_of_traffic": 159221,
+        "market_share": "0.49",
+        "position": 25,
+        "websites_found": 57
+      },
+      {
+        "geo_code": "ru",
+        "geo_name": "Russia",
+        "brand_traffic_share": 3561,
+        "location_id": 37,
+        "total_share_of_traffic": 6139986,
+        "market_share": "0.06",
+        "position": 57,
+        "websites_found": 255
+      },
+      {
+        "geo_code": "gr",
+        "geo_name": "Greece",
+        "brand_traffic_share": 905,
+        "location_id": 45,
+        "total_share_of_traffic": 4639125,
+        "market_share": "0.02",
+        "position": 51,
+        "websites_found": 112
+      },
+      {
+        "geo_code": "az",
+        "geo_name": "Azerbaijan",
+        "brand_traffic_share": 226,
+        "location_id": 68,
+        "total_share_of_traffic": 66939,
+        "market_share": "0.34",
+        "position": 32,
+        "websites_found": 32
+      },
+      {
+        "geo_code": "hr",
+        "geo_name": "Croatia",
+        "brand_traffic_share": 275,
+        "location_id": 60,
+        "total_share_of_traffic": 241654,
+        "market_share": "0.11",
+        "position": 52,
+        "websites_found": 47
+      },
+      {
+        "geo_code": "zw",
+        "geo_name": "Zimbabwe",
+        "brand_traffic_share": 1388,
+        "location_id": 80,
+        "total_share_of_traffic": 155754,
+        "market_share": "0.89",
+        "position": 8,
+        "websites_found": 57
+      },
+      {
+        "geo_code": "bd",
+        "geo_name": "Bangladesh",
+        "brand_traffic_share": 3065,
+        "location_id": 51,
+        "total_share_of_traffic": 960805,
+        "market_share": "0.32",
+        "position": 34,
+        "websites_found": 64
+      },
+      {
+        "geo_code": "ae",
+        "geo_name": "UAE",
+        "brand_traffic_share": 1295,
+        "location_id": 56,
+        "total_share_of_traffic": 67835,
+        "market_share": "1.91",
+        "position": 16,
+        "websites_found": 106
+      },
+      {
+        "geo_code": "rs",
+        "geo_name": "Serbia",
+        "brand_traffic_share": 658,
+        "location_id": 55,
+        "total_share_of_traffic": 136936,
+        "market_share": "0.48",
+        "position": 19,
+        "websites_found": 57
+      },
+      {
+        "geo_code": "cm",
+        "geo_name": "Cameroon",
+        "brand_traffic_share": 2817,
+        "location_id": 89,
+        "total_share_of_traffic": 544275,
+        "market_share": "0.52",
+        "position": 12,
+        "websites_found": 47
+      }
+    ],
+    "verticals": [
+      {
+        "id": 1,
+        "name": "Sports"
+      },
+      {
+        "id": 4,
+        "name": "Casino"
+      },
+      {
+        "id": 3,
+        "name": "Bingo"
+      },
+      {
+        "id": 6,
+        "name": "Lotto"
+      },
+      {
+        "id": 2,
+        "name": "E-Sports"
+      },
+      {
+        "id": 7,
+        "name": "Poker"
+      }
+    ]
+  },
+  {
+    "brand_id": 4768,
+    "brand_name": "12PLAY",
+    "brand_slug": "rkDa",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+        "default":["https://tribuna.com/en/casino/bonuses/","https://tribuna.com/en/betting/bonuses/"]
+    },
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 3475,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "1.36",
+        "position": 22,
+        "websites_found": 31
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 6887,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "4.06",
+        "position": 6,
+        "websites_found": 36
+      },
+      {
+        "geo_code": "th",
+        "geo_name": "Thailand",
+        "brand_traffic_share": 5641,
+        "location_id": 47,
+        "total_share_of_traffic": 188078,
+        "market_share": "3.00",
+        "position": 7,
+        "websites_found": 17
+      },
+      {
+        "geo_code": "ph",
+        "geo_name": "Philippines",
+        "brand_traffic_share": 250,
+        "location_id": 34,
+        "total_share_of_traffic": 718160,
+        "market_share": "0.03",
+        "position": 147,
+        "websites_found": 12
+      },
+      {
+        "geo_code": "vn",
+        "geo_name": "Vietnam",
+        "brand_traffic_share": 283,
+        "location_id": 48,
+        "total_share_of_traffic": 320676,
+        "market_share": "0.09",
+        "position": 53,
+        "websites_found": 17
+      },
+      {
+        "geo_code": "id",
+        "geo_name": "Indonesia",
+        "brand_traffic_share": 901,
+        "location_id": 52,
+        "total_share_of_traffic": 379078,
+        "market_share": "0.24",
+        "position": 48,
+        "websites_found": 17
+      }
+    ],
+    "verticals": [
+      {
+        "id": 4,
+        "name": "Casino"
+      }
+    ]
+  },
+  {
+    "brand_id": 2152,
+    "brand_name": "MYBET",
+    "brand_slug": "71Do",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+        "default":"https://www.mybet.com/en/promotions"
+      },
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 2879,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "1.12",
+        "position": 25,
+        "websites_found": 1
+      },
+      {
+        "geo_code": "us",
+        "geo_name": "USA",
+        "brand_traffic_share": 1452,
+        "location_id": 1,
+        "total_share_of_traffic": 10864685,
+        "market_share": "0.01",
+        "position": 411,
+        "websites_found": 28
+      },
+      {
+        "geo_code": "ie",
+        "geo_name": "Ireland",
+        "brand_traffic_share": 167,
+        "location_id": 15,
+        "total_share_of_traffic": 2138041,
+        "market_share": "0.01",
+        "position": 179,
+        "websites_found": 3
+      },
+      {
+        "geo_code": "ng",
+        "geo_name": "Nigeria",
+        "brand_traffic_share": 1092,
+        "location_id": 62,
+        "total_share_of_traffic": 2738527,
+        "market_share": "0.04",
+        "position": 72,
+        "websites_found": 10
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 155,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "0.09",
+        "position": 119,
+        "websites_found": 11
+      },
+      {
+        "geo_code": "it",
+        "geo_name": "Italy",
+        "brand_traffic_share": 2035,
+        "location_id": 16,
+        "total_share_of_traffic": 2386114,
+        "market_share": "0.09",
+        "position": 67,
+        "websites_found": 28
+      },
+      {
+        "geo_code": "tr",
+        "geo_name": "Turkey",
+        "brand_traffic_share": 237,
+        "location_id": 35,
+        "total_share_of_traffic": 694046,
+        "market_share": "0.03",
+        "position": 254,
+        "websites_found": 13
+      },
+      {
+        "geo_code": "th",
+        "geo_name": "Thailand",
+        "brand_traffic_share": 101,
+        "location_id": 47,
+        "total_share_of_traffic": 188078,
+        "market_share": "0.05",
+        "position": 145,
+        "websites_found": 10
+      },
+      {
+        "geo_code": "lk",
+        "geo_name": "Sri Lanka",
+        "brand_traffic_share": 636,
+        "location_id": 54,
+        "total_share_of_traffic": 602580,
+        "market_share": "0.11",
+        "position": 55,
+        "websites_found": 1
+      },
+      {
+        "geo_code": "nz",
+        "geo_name": "New Zealand",
+        "brand_traffic_share": 4383,
+        "location_id": 5,
+        "total_share_of_traffic": 288934,
+        "market_share": "1.52",
+        "position": 12,
+        "websites_found": 8
+      },
+      {
+        "geo_code": "de",
+        "geo_name": "Germany",
+        "brand_traffic_share": 2398,
+        "location_id": 6,
+        "total_share_of_traffic": 2781758,
+        "market_share": "0.09",
+        "position": 167,
+        "websites_found": 57
+      },
+      {
+        "geo_code": "vn",
+        "geo_name": "Vietnam",
+        "brand_traffic_share": 142,
+        "location_id": 48,
+        "total_share_of_traffic": 320676,
+        "market_share": "0.04",
+        "position": 85,
+        "websites_found": 6
+      },
+      {
+        "geo_code": "in",
+        "geo_name": "India",
+        "brand_traffic_share": 1678,
+        "location_id": 8,
+        "total_share_of_traffic": 2572792,
+        "market_share": "0.07",
+        "position": 116,
+        "websites_found": 10
+      },
+      {
+        "geo_code": "gh",
+        "geo_name": "Ghana",
+        "brand_traffic_share": 3299,
+        "location_id": 78,
+        "total_share_of_traffic": 283088,
+        "market_share": "1.17",
+        "position": 10,
+        "websites_found": 20
+      },
+      {
+        "geo_code": "au",
+        "geo_name": "Australia",
+        "brand_traffic_share": 51540,
+        "location_id": 4,
+        "total_share_of_traffic": 1124393,
+        "market_share": "4.58",
+        "position": 2,
+        "websites_found": 10
+      },
+      {
+        "geo_code": "id",
+        "geo_name": "Indonesia",
+        "brand_traffic_share": 151,
+        "location_id": 52,
+        "total_share_of_traffic": 379078,
+        "market_share": "0.04",
+        "position": 155,
+        "websites_found": 11
+      },
+      {
+        "geo_code": "za",
+        "geo_name": "South Africa",
+        "brand_traffic_share": 1958,
+        "location_id": 18,
+        "total_share_of_traffic": 3408377,
+        "market_share": "0.06",
+        "position": 100,
+        "websites_found": 10
+      },
+      {
+        "geo_code": "uk",
+        "geo_name": "UK",
+        "brand_traffic_share": 783,
+        "location_id": 3,
+        "total_share_of_traffic": 7854406,
+        "market_share": "0.01",
+        "position": 329,
+        "websites_found": 17
+      },
+      {
+        "geo_code": "ke",
+        "geo_name": "Kenya",
+        "brand_traffic_share": 261,
+        "location_id": 61,
+        "total_share_of_traffic": 159221,
+        "market_share": "0.16",
+        "position": 51,
+        "websites_found": 2
+      },
+      {
+        "geo_code": "cm",
+        "geo_name": "Cameroon",
+        "brand_traffic_share": 132,
+        "location_id": 89,
+        "total_share_of_traffic": 544275,
+        "market_share": "0.02",
+        "position": 68,
+        "websites_found": 6
+      }
+    ],
+    "verticals": [
+      {
+        "id": 1,
+        "name": "Sports"
+      },
+      {
+        "id": 4,
+        "name": "Casino"
+      }
+    ]
+  },
+  {
+    "brand_id": 5194,
+    "brand_name": "B9CASINO",
+    "brand_slug": "VwYw",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+        "default":"https://www.b9myr6.com/promotion.html"
+     },  
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 2658,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "1.04",
+        "position": 28,
+        "websites_found": 14
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 123,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "0.07",
+        "position": 138,
+        "websites_found": 15
+      },
+      {
+        "geo_code": "vn",
+        "geo_name": "Vietnam",
+        "brand_traffic_share": 1174,
+        "location_id": 48,
+        "total_share_of_traffic": 320676,
+        "market_share": "0.37",
+        "position": 23,
+        "websites_found": 7
+      }
+    ],
+    "verticals": [
+      {
+        "id": 4,
+        "name": "Casino"
+      }
+    ]
+  },
+  {
+    "brand_id": 5814,
+    "brand_name": "VEGAS SLOT CASINO",
+    "brand_slug": "X2Y8",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+        "default":["https://www.vegasslotsonline.com/casino-bonuses/, https://www.vegasslotsonline.com/casino-bonuses/cashback/, https://www.vegasslotsonline.com/free-spins/, https://www.vegasslotsonline.com/casino-bonuses/high-roller/, https://www.vegasslotsonline.com/no-deposit-bonuses/, https://www.vegasslotsonline.com/casino-bonuses/no-wagering/, https://www.vegasslotsonline.com/casino-bonuses/reload/"]
+		},
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 2291,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "0.89",
+        "position": 31,
+        "websites_found": 1
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 147,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "0.09",
+        "position": 121,
+        "websites_found": 2
+      }
+    ],
+    "verticals": [
+      {
+        "id": 4,
+        "name": "Casino"
+      }
+    ]
+  },
+  {
+    "brand_id": 294,
+    "brand_name": "888",
+    "brand_slug": "VmY",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+          "default": "https://www.888.com/"
+    },
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 1220,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "0.48",
+        "position": 41,
+        "websites_found": 47
+      },
+      {
+        "geo_code": "dk",
+        "geo_name": "Denmark",
+        "brand_traffic_share": 2549,
+        "location_id": 40,
+        "total_share_of_traffic": 311206,
+        "market_share": "0.82",
+        "position": 21,
+        "websites_found": 183
+      },
+      {
+        "geo_code": "ch",
+        "geo_name": "Switzerland",
+        "brand_traffic_share": 234,
+        "location_id": 19,
+        "total_share_of_traffic": 171612,
+        "market_share": "0.14",
+        "position": 92,
+        "websites_found": 92
+      },
+      {
+        "geo_code": "se",
+        "geo_name": "Sweden",
+        "brand_traffic_share": 2214,
+        "location_id": 7,
+        "total_share_of_traffic": 666039,
+        "market_share": "0.33",
+        "position": 47,
+        "websites_found": 292
+      },
+      {
+        "geo_code": "at",
+        "geo_name": "Austria",
+        "brand_traffic_share": 1837,
+        "location_id": 14,
+        "total_share_of_traffic": 233700,
+        "market_share": "0.79",
+        "position": 27,
+        "websites_found": 165
+      },
+      {
+        "geo_code": "us",
+        "geo_name": "USA",
+        "brand_traffic_share": 34766,
+        "location_id": 1,
+        "total_share_of_traffic": 10864685,
+        "market_share": "0.32",
+        "position": 46,
+        "websites_found": 643
+      },
+      {
+        "geo_code": "jp",
+        "geo_name": "Japan",
+        "brand_traffic_share": 813,
+        "location_id": 33,
+        "total_share_of_traffic": 294593,
+        "market_share": "0.28",
+        "position": 57,
+        "websites_found": 119
+      },
+      {
+        "geo_code": "pl",
+        "geo_name": "Poland",
+        "brand_traffic_share": 9113,
+        "location_id": 43,
+        "total_share_of_traffic": 7112886,
+        "market_share": "0.13",
+        "position": 42,
+        "websites_found": 181
+      },
+      {
+        "geo_code": "mz",
+        "geo_name": "Mozambique",
+        "brand_traffic_share": 16298,
+        "location_id": 91,
+        "total_share_of_traffic": 130799,
+        "market_share": "12.46",
+        "position": 3,
+        "websites_found": 17
+      },
+      {
+        "geo_code": "ua",
+        "geo_name": "Ukraine",
+        "brand_traffic_share": 5897,
+        "location_id": 92,
+        "total_share_of_traffic": 1626003,
+        "market_share": "0.36",
+        "position": 33,
+        "websites_found": 123
+      },
+      {
+        "geo_code": "ie",
+        "geo_name": "Ireland",
+        "brand_traffic_share": 624,
+        "location_id": 15,
+        "total_share_of_traffic": 2138041,
+        "market_share": "0.03",
+        "position": 91,
+        "websites_found": 127
+      },
+      {
+        "geo_code": "ar-old",
+        "geo_name": "",
+        "brand_traffic_share": 2318,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.62",
+        "position": 29,
+        "websites_found": 185
+      },
+      {
+        "geo_code": "ng",
+        "geo_name": "Nigeria",
+        "brand_traffic_share": 2787,
+        "location_id": 62,
+        "total_share_of_traffic": 2738527,
+        "market_share": "0.10",
+        "position": 45,
+        "websites_found": 41
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 3077,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "1.81",
+        "position": 10,
+        "websites_found": 124
+      },
+      {
+        "geo_code": "pt",
+        "geo_name": "Portugal",
+        "brand_traffic_share": 4116,
+        "location_id": 41,
+        "total_share_of_traffic": 242864,
+        "market_share": "1.69",
+        "position": 16,
+        "websites_found": 131
+      },
+      {
+        "geo_code": "it",
+        "geo_name": "Italy",
+        "brand_traffic_share": 47648,
+        "location_id": 16,
+        "total_share_of_traffic": 2386114,
+        "market_share": "2.00",
+        "position": 12,
+        "websites_found": 349
+      },
+      {
+        "geo_code": "ro",
+        "geo_name": "Romania",
+        "brand_traffic_share": 40611,
+        "location_id": 42,
+        "total_share_of_traffic": 1252228,
+        "market_share": "3.24",
+        "position": 6,
+        "websites_found": 181
+      },
+      {
+        "geo_code": "tr",
+        "geo_name": "Turkey",
+        "brand_traffic_share": 756,
+        "location_id": 35,
+        "total_share_of_traffic": 694046,
+        "market_share": "0.11",
+        "position": 137,
+        "websites_found": 218
+      },
+      {
+        "geo_code": "kz",
+        "geo_name": "Kazakhstan",
+        "brand_traffic_share": 658,
+        "location_id": 69,
+        "total_share_of_traffic": 692724,
+        "market_share": "0.10",
+        "position": 39,
+        "websites_found": 35
+      },
+      {
+        "geo_code": "eg",
+        "geo_name": "Egypt",
+        "brand_traffic_share": 304,
+        "location_id": 74,
+        "total_share_of_traffic": 97648,
+        "market_share": "0.31",
+        "position": 19,
+        "websites_found": 99
+      },
+      {
+        "geo_code": "th",
+        "geo_name": "Thailand",
+        "brand_traffic_share": 2756,
+        "location_id": 47,
+        "total_share_of_traffic": 188078,
+        "market_share": "1.47",
+        "position": 15,
+        "websites_found": 220
+      },
+      {
+        "geo_code": "be",
+        "geo_name": "Belgium",
+        "brand_traffic_share": 1019,
+        "location_id": 44,
+        "total_share_of_traffic": 227047,
+        "market_share": "0.45",
+        "position": 24,
+        "websites_found": 126
+      },
+      {
+        "geo_code": "no",
+        "geo_name": "Norway",
+        "brand_traffic_share": 412,
+        "location_id": 17,
+        "total_share_of_traffic": 180377,
+        "market_share": "0.23",
+        "position": 94,
+        "websites_found": 171
+      },
+      {
+        "geo_code": "pe",
+        "geo_name": "Peru",
+        "brand_traffic_share": 45315,
+        "location_id": 32,
+        "total_share_of_traffic": 2021063,
+        "market_share": "2.24",
+        "position": 8,
+        "websites_found": 53
+      },
+      {
+        "geo_code": "lt",
+        "geo_name": "Lithuania",
+        "brand_traffic_share": 554,
+        "location_id": 66,
+        "total_share_of_traffic": 30437,
+        "market_share": "1.82",
+        "position": 15,
+        "websites_found": 36
+      },
+      {
+        "geo_code": "lv",
+        "geo_name": "Latvia",
+        "brand_traffic_share": 193,
+        "location_id": 81,
+        "total_share_of_traffic": 54300,
+        "market_share": "0.36",
+        "position": 53,
+        "websites_found": 37
+      },
+      {
+        "geo_code": "fr",
+        "geo_name": "France",
+        "brand_traffic_share": 2650,
+        "location_id": 30,
+        "total_share_of_traffic": 1999079,
+        "market_share": "0.13",
+        "position": 76,
+        "websites_found": 210
+      },
+      {
+        "geo_code": "cz",
+        "geo_name": "Czech Republic",
+        "brand_traffic_share": 383,
+        "location_id": 53,
+        "total_share_of_traffic": 552176,
+        "market_share": "0.07",
+        "position": 61,
+        "websites_found": 98
+      },
+      {
+        "geo_code": "tz",
+        "geo_name": "Tanzania",
+        "brand_traffic_share": 10736,
+        "location_id": 64,
+        "total_share_of_traffic": 48904,
+        "market_share": "21.95",
+        "position": 1,
+        "websites_found": 29
+      },
+      {
+        "geo_code": "ph",
+        "geo_name": "Philippines",
+        "brand_traffic_share": 1866,
+        "location_id": 34,
+        "total_share_of_traffic": 718160,
+        "market_share": "0.26",
+        "position": 47,
+        "websites_found": 174
+      },
+      {
+        "geo_code": "nz",
+        "geo_name": "New Zealand",
+        "brand_traffic_share": 1307,
+        "location_id": 5,
+        "total_share_of_traffic": 288934,
+        "market_share": "0.45",
+        "position": 46,
+        "websites_found": 173
+      },
+      {
+        "geo_code": "jo",
+        "geo_name": "Jordan",
+        "brand_traffic_share": 186,
+        "location_id": 72,
+        "total_share_of_traffic": 1090,
+        "market_share": "17.06",
+        "position": 2,
+        "websites_found": 13
+      },
+      {
+        "geo_code": "ar",
+        "geo_name": "Argentina",
+        "brand_traffic_share": 2318,
+        "location_id": 46,
+        "total_share_of_traffic": 372831,
+        "market_share": "0.62",
+        "position": 29,
+        "websites_found": 185
+      },
+      {
+        "geo_code": "co",
+        "geo_name": "Colombia",
+        "brand_traffic_share": 5691,
+        "location_id": 58,
+        "total_share_of_traffic": 587410,
+        "market_share": "0.97",
+        "position": 21,
+        "websites_found": 134
+      },
+      {
+        "geo_code": "de",
+        "geo_name": "Germany",
+        "brand_traffic_share": 6815,
+        "location_id": 6,
+        "total_share_of_traffic": 2781758,
+        "market_share": "0.25",
+        "position": 71,
+        "websites_found": 331
+      },
+      {
+        "geo_code": "cy",
+        "geo_name": "Cyprus",
+        "brand_traffic_share": 237,
+        "location_id": 67,
+        "total_share_of_traffic": 195336,
+        "market_share": "0.12",
+        "position": 56,
+        "websites_found": 63
+      },
+      {
+        "geo_code": "vn",
+        "geo_name": "Vietnam",
+        "brand_traffic_share": 591,
+        "location_id": 48,
+        "total_share_of_traffic": 320676,
+        "market_share": "0.18",
+        "position": 37,
+        "websites_found": 202
+      },
+      {
+        "geo_code": "hu",
+        "geo_name": "Hungary",
+        "brand_traffic_share": 732,
+        "location_id": 36,
+        "total_share_of_traffic": 123009,
+        "market_share": "0.60",
+        "position": 35,
+        "websites_found": 110
+      },
+      {
+        "geo_code": "cl",
+        "geo_name": "Chile",
+        "brand_traffic_share": 770,
+        "location_id": 9,
+        "total_share_of_traffic": 152035,
+        "market_share": "0.51",
+        "position": 41,
+        "websites_found": 87
+      },
+      {
+        "geo_code": "tn",
+        "geo_name": "Tunisia",
+        "brand_traffic_share": 5298,
+        "location_id": 75,
+        "total_share_of_traffic": 613800,
+        "market_share": "0.86",
+        "position": 25,
+        "websites_found": 77
+      },
+      {
+        "geo_code": "kr",
+        "geo_name": "South Korea",
+        "brand_traffic_share": 1283,
+        "location_id": 49,
+        "total_share_of_traffic": 91690,
+        "market_share": "1.40",
+        "position": 18,
+        "websites_found": 66
+      },
+      {
+        "geo_code": "in",
+        "geo_name": "India",
+        "brand_traffic_share": 18105,
+        "location_id": 8,
+        "total_share_of_traffic": 2572792,
+        "market_share": "0.70",
+        "position": 27,
+        "websites_found": 172
+      },
+      {
+        "geo_code": "es",
+        "geo_name": "Spain",
+        "brand_traffic_share": 17095,
+        "location_id": 29,
+        "total_share_of_traffic": 1177778,
+        "market_share": "1.45",
+        "position": 15,
+        "websites_found": 290
+      },
+      {
+        "geo_code": "mx",
+        "geo_name": "Mexico",
+        "brand_traffic_share": 15254,
+        "location_id": 12,
+        "total_share_of_traffic": 1038993,
+        "market_share": "1.47",
+        "position": 14,
+        "websites_found": 187
+      },
+      {
+        "geo_code": "ca",
+        "geo_name": "Canada",
+        "brand_traffic_share": 12953,
+        "location_id": 2,
+        "total_share_of_traffic": 1299595,
+        "market_share": "1.00",
+        "position": 19,
+        "websites_found": 315
+      },
+      {
+        "geo_code": "fi",
+        "geo_name": "Finland",
+        "brand_traffic_share": 566,
+        "location_id": 10,
+        "total_share_of_traffic": 1167296,
+        "market_share": "0.05",
+        "position": 225,
+        "websites_found": 185
+      },
+      {
+        "geo_code": "gh",
+        "geo_name": "Ghana",
+        "brand_traffic_share": 232,
+        "location_id": 78,
+        "total_share_of_traffic": 283088,
+        "market_share": "0.08",
+        "position": 50,
+        "websites_found": 28
+      },
+      {
+        "geo_code": "au",
+        "geo_name": "Australia",
+        "brand_traffic_share": 3896,
+        "location_id": 4,
+        "total_share_of_traffic": 1124393,
+        "market_share": "0.35",
+        "position": 50,
+        "websites_found": 192
+      },
+      {
+        "geo_code": "lu",
+        "geo_name": "Luxembourg",
+        "brand_traffic_share": 171,
+        "location_id": 76,
+        "total_share_of_traffic": 10052,
+        "market_share": "1.70",
+        "position": 17,
+        "websites_found": 25
+      },
+      {
+        "geo_code": "id",
+        "geo_name": "Indonesia",
+        "brand_traffic_share": 7460,
+        "location_id": 52,
+        "total_share_of_traffic": 379078,
+        "market_share": "1.97",
+        "position": 10,
+        "websites_found": 267
+      },
+      {
+        "geo_code": "za",
+        "geo_name": "South Africa",
+        "brand_traffic_share": 2191,
+        "location_id": 18,
+        "total_share_of_traffic": 3408377,
+        "market_share": "0.06",
+        "position": 96,
+        "websites_found": 154
+      },
+      {
+        "geo_code": "nl",
+        "geo_name": "Netherlands",
+        "brand_traffic_share": 9380,
+        "location_id": 28,
+        "total_share_of_traffic": 1172062,
+        "market_share": "0.80",
+        "position": 19,
+        "websites_found": 218
+      },
+      {
+        "geo_code": "zm",
+        "geo_name": "Zambia",
+        "brand_traffic_share": 131,
+        "location_id": 65,
+        "total_share_of_traffic": 122084,
+        "market_share": "0.11",
+        "position": 47,
+        "websites_found": 37
+      },
+      {
+        "geo_code": "ec",
+        "geo_name": "Ecuador",
+        "brand_traffic_share": 603,
+        "location_id": 59,
+        "total_share_of_traffic": 100468,
+        "market_share": "0.60",
+        "position": 15,
+        "websites_found": 18
+      },
+      {
+        "geo_code": "br",
+        "geo_name": "Brazil",
+        "brand_traffic_share": 6661,
+        "location_id": 11,
+        "total_share_of_traffic": 1866640,
+        "market_share": "0.36",
+        "position": 45,
+        "websites_found": 330
+      },
+      {
+        "geo_code": "uk",
+        "geo_name": "UK",
+        "brand_traffic_share": 22985,
+        "location_id": 3,
+        "total_share_of_traffic": 7854406,
+        "market_share": "0.29",
+        "position": 46,
+        "websites_found": 468
+      },
+      {
+        "geo_code": "ke",
+        "geo_name": "Kenya",
+        "brand_traffic_share": 315,
+        "location_id": 61,
+        "total_share_of_traffic": 159221,
+        "market_share": "0.20",
+        "position": 43,
+        "websites_found": 29
+      },
+      {
+        "geo_code": "ru",
+        "geo_name": "Russia",
+        "brand_traffic_share": 8239,
+        "location_id": 37,
+        "total_share_of_traffic": 6139986,
+        "market_share": "0.13",
+        "position": 37,
+        "websites_found": 322
+      },
+      {
+        "geo_code": "bw",
+        "geo_name": "Botswana",
+        "brand_traffic_share": 110,
+        "location_id": 90,
+        "total_share_of_traffic": 14429,
+        "market_share": "0.76",
+        "position": 9,
+        "websites_found": 23
+      },
+      {
+        "geo_code": "gr",
+        "geo_name": "Greece",
+        "brand_traffic_share": 292,
+        "location_id": 45,
+        "total_share_of_traffic": 4639125,
+        "market_share": "0.01",
+        "position": 113,
+        "websites_found": 116
+      },
+      {
+        "geo_code": "az",
+        "geo_name": "Azerbaijan",
+        "brand_traffic_share": 134,
+        "location_id": 68,
+        "total_share_of_traffic": 66939,
+        "market_share": "0.20",
+        "position": 40,
+        "websites_found": 21
+      },
+      {
+        "geo_code": "hr",
+        "geo_name": "Croatia",
+        "brand_traffic_share": 155,
+        "location_id": 60,
+        "total_share_of_traffic": 241654,
+        "market_share": "0.06",
+        "position": 62,
+        "websites_found": 38
+      },
+      {
+        "geo_code": "kw",
+        "geo_name": "Kuwait",
+        "brand_traffic_share": 256,
+        "location_id": 57,
+        "total_share_of_traffic": 5793,
+        "market_share": "4.42",
+        "position": 5,
+        "websites_found": 62
+      },
+      {
+        "geo_code": "bd",
+        "geo_name": "Bangladesh",
+        "brand_traffic_share": 915,
+        "location_id": 51,
+        "total_share_of_traffic": 960805,
+        "market_share": "0.10",
+        "position": 47,
+        "websites_found": 44
+      },
+      {
+        "geo_code": "ae",
+        "geo_name": "UAE",
+        "brand_traffic_share": 266,
+        "location_id": 56,
+        "total_share_of_traffic": 67835,
+        "market_share": "0.39",
+        "position": 41,
+        "websites_found": 132
+      }
+    ],
+    "verticals": [
+      {
+        "id": 4,
+        "name": "Casino"
+      },
+      {
+        "id": 1,
+        "name": "Sports"
+      },
+      {
+        "id": 3,
+        "name": "Bingo"
+      },
+      {
+        "id": 7,
+        "name": "Poker"
+      },
+      {
+        "id": 2,
+        "name": "E-Sports"
+      },
+      {
+        "id": 6,
+        "name": "Lotto"
+      }
+    ]
+  },
+  {
+    "brand_id": 4547,
+    "brand_name": "BETGOODWIN",
+    "brand_slug": "ow66",
+    "keyword_category_id": 0,
+    "regulated_option": "all",
+    "crypto_friendly_option": "all",
+    "my_brand": false,
+    "promotions": {
+          "default": "https://www.betgoodwin.co.uk/en/promotions"
+    },
+    "locations": [
+      {
+        "geo_code": "sg",
+        "geo_name": "Singapore",
+        "brand_traffic_share": 1154,
+        "location_id": 93,
+        "total_share_of_traffic": 256373,
+        "market_share": "0.45",
+        "position": 42,
+        "websites_found": 12
+      },
+      {
+        "geo_code": "us",
+        "geo_name": "USA",
+        "brand_traffic_share": 2045,
+        "location_id": 1,
+        "total_share_of_traffic": 10864685,
+        "market_share": "0.02",
+        "position": 335,
+        "websites_found": 55
+      },
+      {
+        "geo_code": "ie",
+        "geo_name": "Ireland",
+        "brand_traffic_share": 21179,
+        "location_id": 15,
+        "total_share_of_traffic": 2138041,
+        "market_share": "0.99",
+        "position": 21,
+        "websites_found": 37
+      },
+      {
+        "geo_code": "my",
+        "geo_name": "Malaysia",
+        "brand_traffic_share": 232,
+        "location_id": 50,
+        "total_share_of_traffic": 169786,
+        "market_share": "0.14",
+        "position": 95,
+        "websites_found": 21
+      },
+      {
+        "geo_code": "it",
+        "geo_name": "Italy",
+        "brand_traffic_share": 202,
+        "location_id": 16,
+        "total_share_of_traffic": 2386114,
+        "market_share": "0.01",
+        "position": 295,
+        "websites_found": 23
+      },
+      {
+        "geo_code": "tr",
+        "geo_name": "Turkey",
+        "brand_traffic_share": 9233,
+        "location_id": 35,
+        "total_share_of_traffic": 694046,
+        "market_share": "1.33",
+        "position": 17,
+        "websites_found": 34
+      },
+      {
+        "geo_code": "lk",
+        "geo_name": "Sri Lanka",
+        "brand_traffic_share": 10200,
+        "location_id": 54,
+        "total_share_of_traffic": 602580,
+        "market_share": "1.69",
+        "position": 16,
+        "websites_found": 14
+      },
+      {
+        "geo_code": "fr",
+        "geo_name": "France",
+        "brand_traffic_share": 227,
+        "location_id": 30,
+        "total_share_of_traffic": 1999079,
+        "market_share": "0.01",
+        "position": 362,
+        "websites_found": 28
+      },
+      {
+        "geo_code": "jm",
+        "geo_name": "Jamaica",
+        "brand_traffic_share": 251,
+        "location_id": 77,
+        "total_share_of_traffic": 23126,
+        "market_share": "1.09",
+        "position": 21,
+        "websites_found": 7
+      },
+      {
+        "geo_code": "nz",
+        "geo_name": "New Zealand",
+        "brand_traffic_share": 198,
+        "location_id": 5,
+        "total_share_of_traffic": 288934,
+        "market_share": "0.07",
+        "position": 201,
+        "websites_found": 23
+      },
+      {
+        "geo_code": "cy",
+        "geo_name": "Cyprus",
+        "brand_traffic_share": 704,
+        "location_id": 67,
+        "total_share_of_traffic": 195336,
+        "market_share": "0.36",
+        "position": 31,
+        "websites_found": 16
+      },
+      {
+        "geo_code": "cl",
+        "geo_name": "Chile",
+        "brand_traffic_share": 116,
+        "location_id": 9,
+        "total_share_of_traffic": 152035,
+        "market_share": "0.08",
+        "position": 114,
+        "websites_found": 12
+      },
+      {
+        "geo_code": "in",
+        "geo_name": "India",
+        "brand_traffic_share": 4540,
+        "location_id": 8,
+        "total_share_of_traffic": 2572792,
+        "market_share": "0.18",
+        "position": 64,
+        "websites_found": 38
+      },
+      {
+        "geo_code": "es",
+        "geo_name": "Spain",
+        "brand_traffic_share": 2139,
+        "location_id": 29,
+        "total_share_of_traffic": 1177778,
+        "market_share": "0.18",
+        "position": 67,
+        "websites_found": 33
+      },
+      {
+        "geo_code": "ca",
+        "geo_name": "Canada",
+        "brand_traffic_share": 261,
+        "location_id": 2,
+        "total_share_of_traffic": 1299595,
+        "market_share": "0.02",
+        "position": 413,
+        "websites_found": 30
+      },
+      {
+        "geo_code": "ma",
+        "geo_name": "Morocco",
+        "brand_traffic_share": 138,
+        "location_id": 31,
+        "total_share_of_traffic": 967196,
+        "market_share": "0.01",
+        "position": 49,
+        "websites_found": 6
+      },
+      {
+        "geo_code": "au",
+        "geo_name": "Australia",
+        "brand_traffic_share": 557,
+        "location_id": 4,
+        "total_share_of_traffic": 1124393,
+        "market_share": "0.05",
+        "position": 214,
+        "websites_found": 32
+      },
+      {
+        "geo_code": "za",
+        "geo_name": "South Africa",
+        "brand_traffic_share": 5962,
+        "location_id": 18,
+        "total_share_of_traffic": 3408377,
+        "market_share": "0.17",
+        "position": 53,
+        "websites_found": 34
+      },
+      {
+        "geo_code": "nl",
+        "geo_name": "Netherlands",
+        "brand_traffic_share": 158,
+        "location_id": 28,
+        "total_share_of_traffic": 1172062,
+        "market_share": "0.01",
+        "position": 364,
+        "websites_found": 28
+      },
+      {
+        "geo_code": "br",
+        "geo_name": "Brazil",
+        "brand_traffic_share": 148,
+        "location_id": 11,
+        "total_share_of_traffic": 1866640,
+        "market_share": "0.01",
+        "position": 410,
+        "websites_found": 32
+      },
+      {
+        "geo_code": "uk",
+        "geo_name": "UK",
+        "brand_traffic_share": 66525,
+        "location_id": 3,
+        "total_share_of_traffic": 7854406,
+        "market_share": "0.85",
+        "position": 24,
+        "websites_found": 83
+      },
+      {
+        "geo_code": "ae",
+        "geo_name": "UAE",
+        "brand_traffic_share": 624,
+        "location_id": 56,
+        "total_share_of_traffic": 67835,
+        "market_share": "0.92",
+        "position": 25,
+        "websites_found": 22
+      }
+    ],
+    "verticals": [
+      {
+        "id": 1,
+        "name": "Sports"
+      },
+      {
+        "id": 4,
+        "name": "Casino"
+      }
+    ]
+  }
+]

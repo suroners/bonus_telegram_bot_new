@@ -1,0 +1,344 @@
+✅ PROMPT FOR GEMINI: Build the Scraping Microservice
+
+You are an expert Python/Django architect.
+Your task is to generate the complete codebase for the Scraping Microservice of a casino-bonus aggregation system.
+
+Below is the full specification.
+Follow it exactly.
+
+🎯 PROJECT CONTEXT
+
+This system has 3 microservices:
+
+Scraping Microservice (YOU ARE BUILDING THIS)
+
+AI Parsing Microservice
+
+Telegram Bot Microservice
+
+This microservice:
+
+Scrapes casino bonus pages daily.
+
+Stores raw HTML.
+
+Handles GEO-based differences via proxies.
+
+Supports JavaScript-rendered websites (React/Angular).
+
+Detects aggregator type (SoftSwiss, EveryMatrix, etc.).
+
+Prepares data for the AI Parsing Microservice.
+
+Uses Celery for scheduling.
+
+Uses PostgreSQL as the database.
+
+Runs in Docker.
+
+🗂️ DATABASE MODELS (Scraping Microservice)
+Casino
+
+id
+
+name
+
+type
+
+release_date (nullable)
+
+logo_url (nullable)
+
+aggregator_type (nullable)
+
+aggregator_source (nullable)
+
+created_at
+
+updated_at
+
+GameProvider
+
+id
+
+name
+
+logo_url
+
+created_at
+
+updated_at
+
+Game
+
+id
+
+provider (FK GameProvider)
+
+name
+
+type
+
+rtp (nullable)
+
+logo_url (nullable)
+
+created_at
+
+updated_at
+
+CasinoBonusPage
+
+id
+
+casino (FK Casino)
+
+url
+
+geo (nullable)
+
+notes (nullable)
+
+created_at
+
+ScrapedHistory
+
+id
+
+casino (FK Casino)
+
+url
+
+geo
+
+scraped_at
+
+status (SUCCESS / FAILED)
+
+error_message (nullable)
+
+raw_html (TEXT)
+
+final_url (after redirects)
+
+Affiliate
+
+For each casino we maintain an affiliate account.
+
+id
+
+casino (FK Casino)
+
+username
+
+password
+
+affiliate_id (from casino if exists)
+
+created_at
+
+AffiliateMedia
+
+id
+
+affiliate (FK Affiliate)
+
+url
+
+created_at
+
+🔍 SCRAPING REQUIREMENTS
+Scraping Rules
+
+Scrape all casino bonus pages (from CasinoBonusPage table)
+
+Support dynamic pages using:
+
+Playwright (preferred)
+
+OR Selenium
+
+Use proxy rotation for GEO-specific pages
+
+Store raw HTML only
+
+Do NOT parse HTML here (AI service handles that)
+
+Detect aggregator automatically using heuristics:
+
+SoftSwiss
+
+EveryMatrix
+
+SOFTSWISS
+
+Pragmatic Solutions
+
+BetConstruct
+
+Slotegrator
+
+etc.
+
+Retry / Error Handling
+
+Each page scrape:
+
+3 retries
+
+exponential backoff
+
+save failure reason
+
+Versioning
+
+scraped_at timestamp defines version
+
+All versions stored separately (no overwriting)
+
+Output for AI Microservice
+
+After scraping, publish message to message queue (Kafka/RabbitMQ):
+
+{
+  "scrape_id": 123,
+  "casino_id": 55,
+  "url": "https://example.com/bonuses",
+  "scraped_at": "2024-11-14T10:00:00Z"
+}
+
+Caching / Avoiding Duplicates
+
+Do NOT scrape twice per 24 hours unless forced.
+
+🔄 CELERY TASKS
+
+Implement Celery with tasks:
+
+scrape_all_casinos()
+
+Loops through all CasinoBonusPage rows
+
+Delegates tasks to workers
+
+scrape_single_page(page_id)
+
+Takes CasinoBonusPage ID
+
+Loads proxy for selected GEO
+
+Loads Playwright browser
+
+Scrapes page
+
+Saves ScrapedHistory row
+
+Sends event to AI microservice
+
+🧩 REST API ENDPOINTS
+
+Create a Django REST Framework API:
+
+GET /api/bonus-pages/
+
+Returns list of bonus pages.
+
+POST /api/scrape/run/
+
+Triggers full scraping job.
+
+POST /api/scrape/page/<id>/
+
+Scrapes one page manually.
+
+GET /api/scrape/history/
+
+Filters: casino_id, date_from, date_to, status, geo.
+
+🛠️ INFRASTRUCTURE REQUIREMENTS
+Python version
+
+Python 3.12
+
+Requirements
+Django
+djangorestframework
+psycopg2-binary
+celery
+redis
+playwright
+httpx
+pydantic
+
+Docker Compose services
+
+web (Django)
+
+worker (Celery)
+
+scheduler (Celery beat)
+
+redis
+
+postgres
+
+🎯 DELIVERABLES
+
+Generate ALL code for this microservice:
+
+1. Django project + app
+
+scraper/
+
+scraper/scraper_app/
+
+2. All models (with migrations)
+3. Serializers & DRF views
+4. Celery config + tasks
+5. Scraper engine using Playwright
+
+JS enabled
+
+Proxy rotation
+
+Error handling
+
+6. Aggregator detector
+
+Pattern-based
+
+HTML & URL based
+
+7. REST API routers
+8. Docker Compose & Dockerfiles
+9. README with setup instructions
+🔥 CODING STYLE REQUIREMENTS
+
+Use clean architecture
+
+Use services layer (services/scraper_service.py)
+
+Use repository pattern
+
+Use Pydantic for internal DTOs
+
+Use async Playwright where possible
+
+Code must be production-level
+
+Must run fully in Docker
+
+📌 FINAL OUTPUT FORMAT FOR YOU (GEMINI)
+
+Generate:
+
+✔ Full directory structure
+✔ All code files
+✔ Dockerfile + docker-compose.yml
+✔ Migration files
+✔ Setup instructions
+✔ Example of running Celery worker
+✔ Example proxy config
+✔ Example Playwright scraper
+
+Now generate the complete implementation for the Scraping Microservice based on everything above.

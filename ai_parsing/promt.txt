@@ -1,0 +1,342 @@
+AI Parsing Microservice (Microservice #2)
+
+Give this entire prompt to Gemini.
+
+You are an expert Python/Django architect.
+Your task is to generate a complete, production-grade AI Parsing Microservice for a casino-bonus aggregation system.
+
+Follow the specifications exactly.
+
+🎯 PROJECT CONTEXT
+
+The system has 3 microservices:
+
+Scraping Microservice (already completed)
+
+AI Parsing Microservice (YOU ARE BUILDING THIS)
+
+Telegram Bot Microservice
+
+This microservice:
+
+Takes raw scraped HTML from Scraping Microservice
+
+Uses an external LLM (OpenAI/Google Gemini/Anthropic) to extract structured bonus data
+
+Saves parsed bonus information to DB
+
+Publishes final structured output to a message queue for the Telegram Bot
+
+Runs fully in Docker
+
+Uses Celery for async parsing queue
+
+Uses PostgreSQL
+
+Provides REST API endpoints to query parsed bonuses
+
+🗂️ DATABASE MODELS (AI Parsing Microservice)
+
+Implement these Django models exactly.
+
+Bonus
+
+Stores AI-extracted structured bonus data.
+
+id
+
+casino (FK → Casino, stored locally)
+
+game (FK → Game, nullable)
+
+title
+
+description (TEXT)
+
+type (free spins, deposit bonus, wager-free, cashback, etc.)
+
+provider (FK → GameProvider, nullable)
+
+wagering_requirement (nullable)
+
+min_deposit (nullable)
+
+max_bonus (nullable)
+
+currency (nullable, including crypto)
+
+start_date (nullable)
+
+end_date (nullable)
+
+geo (nullable)
+
+affiliate_url (nullable)
+
+is_auto (boolean, always TRUE for this microservice)
+
+created_at
+
+updated_at
+
+AIParsingQueue
+
+Stores incoming scraped HTML waiting to be parsed.
+
+id
+
+scraped_history_id
+
+casino_id
+
+url
+
+raw_html (TEXT)
+
+geo
+
+status (PENDING / PROCESSING / DONE / FAILED)
+
+error_message (nullable)
+
+created_at
+
+updated_at
+
+AIProviderConfig
+
+Stores which API key/model to use.
+
+id
+
+provider ("openai", "google", "anthropic")
+
+model
+
+api_key
+
+enabled (boolean)
+
+🔍 PARSING REQUIREMENTS
+AI Parsing Flow
+
+Scraping Microservice publishes:
+
+{
+  "scrape_id": 123,
+  "casino_id": 55,
+  "url": "https://casino.com/bonus",
+  "scraped_at": "...",
+  "geo": "CA"
+}
+
+
+AI Parsing Microservice consumes the message
+
+It fetches raw_html from ScrapedHistory (via internal HTTP call to Scraper API or DB connection depending on architecture)
+
+Sends prompt to LLM model
+
+Receives structured JSON:
+
+{
+  "title": "...",
+  "description": "...",
+  "type": "...",
+  "game": "...",
+  "provider": "...",
+  "wagering_requirement": "...",
+  "min_deposit": "...",
+  "max_bonus": "...",
+  "currency": "USD",
+  "start_date": "2025-01-01",
+  "end_date": "2025-02-01",
+  "geo": "CA",
+  "affiliate_url": "..."
+}
+
+
+Saves Bonus rows
+
+Publishes output to queue:
+
+{
+  "bonus_id": 100,
+  "casino_id": 55,
+  "type": "...",
+  "title": "...",
+  "geo": "CA"
+}
+
+🔄 CELERY TASKS
+
+Implement Celery with:
+
+parse_single_scrape(scrape_message)
+
+Consumes a message from RabbitMQ/Redis.
+
+parse_pending_queue()
+
+Processes all PENDING AIParsingQueue items.
+
+process_llm(html, casino_id, geo)
+
+Uses the configured provider from AIProviderConfig.
+
+Supports:
+
+OpenAI
+
+Gemini
+
+Anthropic
+
+Use an interface like:
+
+services/llm_providers/base.py
+services/llm_providers/openai_provider.py
+services/llm_providers/google_provider.py
+services/llm_providers/anthropic_provider.py
+
+🔧 SYSTEM ARCHITECTURE REQUIREMENTS
+1. services/ directory MUST exist:
+services/
+    parser_service.py
+    message_consumer.py
+    message_publisher.py
+    llm_providers/
+         base.py
+         openai_provider.py
+         google_provider.py
+         anthropic_provider.py
+
+2. Repository Pattern
+
+repository.py must contain:
+
+create_bonus
+
+update_queue_status
+
+get_pending_queue_items
+
+link_game/provider if exists
+
+3. Pydantic DTOs
+
+dtos.py must contain:
+
+ParsedBonusDTO
+
+ScrapeMessageDTO
+
+LLMResponseDTO
+
+4. API Endpoints
+
+Using DRF:
+
+GET /api/bonuses/
+
+Filters:
+
+casino
+
+geo
+
+type
+
+provider
+
+date range
+
+POST /api/parse/trigger/<scrape_id>/
+
+Manually triggers parse.
+
+GET /api/queue/
+
+Lists AIParsingQueue items.
+
+GET /api/bonus/<id>/
+
+Get a single bonus item.
+
+5. Error Handling
+
+Store:
+
+traceback
+
+LLM API errors
+
+Invalid JSON from LLM
+
+6. Logging
+
+Use JSON logging.
+
+🚀 INFRASTRUCTURE REQUIREMENTS
+Docker services:
+
+web (Django)
+
+worker (Celery worker)
+
+beat (Celery beat)
+
+postgres
+
+redis or rabbitmq
+
+IMPORTANT
+Provide a complete docker-compose.yml and Dockerfile.
+
+.env.example must include:
+
+DB credentials
+
+REDIS/RABBITMQ URL
+
+Default LLM provider
+
+API keys (empty placeholder values)
+
+🎯 DELIVERABLES (Gemini MUST output)
+
+Gemini must output:
+
+✔ Full directory structure
+✔ All files, file-by-file
+✔ Django project + app
+✔ Models + migrations
+✔ API endpoints + serializers
+✔ Complete Celery setup
+✔ Full LLM provider system
+✔ Services + repository layer
+✔ Message consumer + publisher
+✔ README.md with setup instructions
+✔ Dockerfile + docker-compose.yml
+✔ Tests (pytest)
+✔ Pydantic DTOs
+
+NO placeholders.
+NO pseudo-code.
+Everything must be runnable.
+
+
+📌 FINAL OUTPUT FORMAT FOR YOU (GEMINI)
+
+Generate:
+
+✔ Full directory structure
+✔ All code files
+✔ Dockerfile + docker-compose.yml
+✔ Migration files
+✔ Setup instructions
+✔ Example of running Celery worker
+✔ Example proxy config
+✔ Example Playwright scraper
+
+Now generate the complete implementation for the Scraping Microservice based on everything above.

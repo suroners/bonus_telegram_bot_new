@@ -1,0 +1,225 @@
+{% extends "bonus_scraping/scrape_history_base.html" %}
+
+{% block title %}Scraped History{% endblock %}
+
+{% block content %}
+<section class="topbar">
+    <div>
+        <p class="eyebrow">Scraper</p>
+        <h1>Scraped History</h1>
+        <p class="lede">Recent runs by casino, GEO, status, URL, and parser handoff.</p>
+    </div>
+    <div class="button-row">
+        <a class="button secondary" href="?format=json{% if querystring %}&amp;{{ querystring }}{% endif %}">JSON</a>
+        <a class="button secondary" href="/admin/bonus_core/scrapedhistory/">Admin</a>
+    </div>
+</section>
+
+<section class="filters" aria-label="Scraped history filters">
+    <form class="filter-form" method="get">
+        <label>
+            Search
+            <input type="search" name="q" value="{{ filters.q }}" placeholder="Casino, URL, aggregator, error">
+        </label>
+        <label>
+            Casino
+            <input type="search" name="casino" value="{{ filters.casino }}" placeholder="Name or ID">
+        </label>
+        <label>
+            GEO
+            <input type="search" name="geo" value="{{ filters.geo }}" placeholder="uk">
+        </label>
+        <label>
+            Status
+            <select name="status">
+                <option value="">All</option>
+                {% for value, label in status_choices %}
+                    <option value="{{ value }}" {% if filters.status == value %}selected{% endif %}>{{ label }}</option>
+                {% endfor %}
+            </select>
+        </label>
+        <label>
+            From
+            <input type="date" name="date_from" value="{{ filters.date_from }}">
+        </label>
+        <label>
+            To
+            <input type="date" name="date_to" value="{{ filters.date_to }}">
+        </label>
+        <button type="submit">Apply</button>
+        <a class="button secondary" href="?format=html">Reset</a>
+    </form>
+</section>
+
+<section class="summary" aria-label="Scrape status summary">
+    <div class="summary-item">
+        <span class="summary-value">{{ total_count }}</span>
+        <span class="summary-label">Total</span>
+    </div>
+    {% for item in status_summary %}
+        <div class="summary-item">
+            <span class="summary-value">{{ item.count }}</span>
+            <span class="summary-label">{{ item.label }}</span>
+        </div>
+    {% endfor %}
+</section>
+
+<section class="table-wrap desktop-history" aria-label="Desktop scraped history">
+    <table>
+        <thead>
+            <tr>
+                <th>Run</th>
+                <th>Casino</th>
+                <th>GEO</th>
+                <th>Status</th>
+                <th>URL</th>
+                <th>Aggregator</th>
+                <th>Message</th>
+                <th>View</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for history in histories %}
+                {% url 'admin:bonus_core_scrapedhistory_change' history.id as admin_url %}
+                <tr>
+                    <td>
+                        <div class="run-meta">
+                            <strong>#{{ history.id }}</strong>
+                            <span class="muted">{{ history.scraped_at|date:"Y-m-d H:i" }}</span>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="casino-line">
+                            {% if history.casino.logo_url %}
+                                <img class="logo" src="{{ history.casino.logo_url }}" alt="{{ history.casino.name }} logo">
+                            {% else %}
+                                <span class="logo-fallback">{{ history.casino.name|slice:":1" }}</span>
+                            {% endif %}
+                            <span>{{ history.casino.name }}</span>
+                        </div>
+                    </td>
+                    <td>{% if history.geo %}{{ history.geo.code }}{% else %}<span class="muted">default</span>{% endif %}</td>
+                    <td>
+                        <span class="status-pill status-{{ history.status|lower }}">{{ history.get_status_display }}</span>
+                    </td>
+                    <td class="url-text">
+                        {% if history.final_url %}
+                            <a href="{{ history.final_url }}" target="_blank" rel="noopener noreferrer">{{ history.final_url }}</a>
+                        {% else %}
+                            <a href="{{ history.url }}" target="_blank" rel="noopener noreferrer">{{ history.url }}</a>
+                        {% endif %}
+                    </td>
+                    <td>{{ history.aggregator_type|default:"-" }}</td>
+                    <td class="error-text">{{ history.error_message|truncatechars:120|default:"-" }}</td>
+                    <td>
+                        <div class="action-links">
+                            <a class="small-button secondary" href="{{ admin_url }}">Admin #{{ history.id }}</a>
+                        </div>
+                        <details>
+                            <summary>Open</summary>
+                            <div class="detail-list">
+                                <div class="detail-line">
+                                    <span class="field-label">Source URL</span>
+                                    <span class="detail-value">{{ history.url }}</span>
+                                </div>
+                                <div class="detail-line">
+                                    <span class="field-label">Final URL</span>
+                                    <span class="detail-value">{{ history.final_url|default:"-" }}</span>
+                                </div>
+                                <div class="detail-line">
+                                    <span class="field-label">Admin</span>
+                                    <a href="{{ admin_url }}">{{ request.scheme }}://{{ request.get_host }}{{ admin_url }}</a>
+                                </div>
+                            </div>
+                        </details>
+                    </td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="8" class="empty-state">No scraped history found.</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="mobile-history" aria-label="Mobile scraped history">
+    {% for history in histories %}
+        {% url 'admin:bonus_core_scrapedhistory_change' history.id as admin_url %}
+        <article class="history-card">
+            <div class="history-card-header">
+                <div class="casino-line">
+                    {% if history.casino.logo_url %}
+                        <img class="logo" src="{{ history.casino.logo_url }}" alt="{{ history.casino.name }} logo">
+                    {% else %}
+                        <span class="logo-fallback">{{ history.casino.name|slice:":1" }}</span>
+                    {% endif %}
+                    <div class="mobile-meta">
+                        <strong>{{ history.casino.name }}</strong>
+                        <span class="muted">#{{ history.id }} | {{ history.scraped_at|date:"Y-m-d H:i" }}</span>
+                    </div>
+                </div>
+                <span class="status-pill status-{{ history.status|lower }}">{{ history.get_status_display }}</span>
+            </div>
+            <div class="card-grid">
+                <div>
+                    <span class="field-label">GEO</span>
+                    <div class="field-value">{% if history.geo %}{{ history.geo.code }}{% else %}default{% endif %}</div>
+                </div>
+                <div>
+                    <span class="field-label">Aggregator</span>
+                    <div class="field-value">{{ history.aggregator_type|default:"-" }}</div>
+                </div>
+                <div>
+                    <span class="field-label">URL</span>
+                    <div class="field-value url-text">
+                        {% if history.final_url %}
+                            <a href="{{ history.final_url }}" target="_blank" rel="noopener noreferrer">{{ history.final_url }}</a>
+                        {% else %}
+                            <a href="{{ history.url }}" target="_blank" rel="noopener noreferrer">{{ history.url }}</a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div>
+                    <span class="field-label">Message</span>
+                    <div class="field-value error-text">{{ history.error_message|truncatechars:140|default:"-" }}</div>
+                </div>
+            </div>
+            <div class="action-links">
+                <a class="small-button secondary" href="{{ admin_url }}">Admin #{{ history.id }}</a>
+            </div>
+            <details>
+                <summary>Open</summary>
+                <div class="detail-list">
+                    <div class="detail-line">
+                        <span class="field-label">Source URL</span>
+                        <span class="detail-value">{{ history.url }}</span>
+                    </div>
+                    <div class="detail-line">
+                        <span class="field-label">Final URL</span>
+                        <span class="detail-value">{{ history.final_url|default:"-" }}</span>
+                    </div>
+                    <div class="detail-line">
+                        <span class="field-label">Admin</span>
+                        <a href="{{ admin_url }}">{{ request.scheme }}://{{ request.get_host }}{{ admin_url }}</a>
+                    </div>
+                </div>
+            </details>
+        </article>
+    {% empty %}
+        <div class="empty-state">No scraped history found.</div>
+    {% endfor %}
+</section>
+
+{% if page_obj.has_other_pages %}
+    <nav class="pagination" aria-label="Scraped history pages">
+        {% if page_obj.has_previous %}
+            <a class="button secondary" href="?page={{ page_obj.previous_page_number }}{% if querystring %}&amp;{{ querystring }}{% endif %}">Previous</a>
+        {% endif %}
+        <span>Page {{ page_obj.number }} of {{ paginator.num_pages }}</span>
+        {% if page_obj.has_next %}
+            <a class="button secondary" href="?page={{ page_obj.next_page_number }}{% if querystring %}&amp;{{ querystring }}{% endif %}">Next</a>
+        {% endif %}
+    </nav>
+{% endif %}
+{% endblock %}

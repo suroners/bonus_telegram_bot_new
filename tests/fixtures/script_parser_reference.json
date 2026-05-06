@@ -1,0 +1,62 @@
+[
+  {
+    "name": "888 casino deposit offer",
+    "url": "https://www.888.com/",
+    "html": "<section class='promotion-card'><h2>1st Deposit Offer 100% up to 500€ Bonus +100 Free Spins</h2><p>Join 888casino and claim the welcome casino package. Terms and conditions apply.</p><a href='/casino/join'>Join 888casino</a></section>",
+    "expected_titles": ["1st Deposit Offer 100% up to 500€ Bonus +100 Free Spins"]
+  },
+  {
+    "name": "888 sport free bet",
+    "url": "https://www.888.com/",
+    "html": "<article class='offer'><h3>Place your first €20+ bet and get a €20 free bet if it does not win</h3><p>New customers only. Minimum deposit €20.</p><a href='/sport/free-bet'>Join 888sport</a></article>",
+    "expected_titles": ["Place your first €20+ bet and get a €20 free bet if it does not win"]
+  },
+  {
+    "name": "888 no deposit",
+    "url": "https://www.888.com/",
+    "html": "<div class='bonus-tile'><h3>Get €8 FREE No Deposit Needed</h3><p>Open an account and receive a no deposit bonus for selected games.</p><a href='/poker/no-deposit'>Claim</a></div>",
+    "expected_titles": ["Get €8 FREE No Deposit Needed"]
+  },
+  {
+    "name": "B9 welcome bonus",
+    "url": "https://www.b9myr6.com/promotion.html",
+    "html": "<li class='promo-item'><h2>WELCOME BONUS UP TO 180%</h2><p>Special new member casino bonus. More Info Deposit Now.</p><a href='/welcome-bonus'>More Info</a></li>",
+    "expected_titles": ["WELCOME BONUS UP TO 180%"]
+  },
+  {
+    "name": "B9 slots free spins",
+    "url": "https://www.b9myr6.com/promotion.html",
+    "html": "<li class='promo-item'><h2>B9 SLOTS BONUS UP TO 600 FREE SPIN</h2><p>Slots campaign for active members. More Info Deposit Now.</p><a href='/slots-free-spin'>More Info</a></li>",
+    "expected_titles": ["B9 SLOTS BONUS UP TO 600 FREE SPIN"]
+  },
+  {
+    "name": "B9 first deposit",
+    "url": "https://www.b9myr6.com/promotion.html",
+    "html": "<li class='promo-item'><h2>SLOT FIRST DEPOSIT BONUS</h2><p>Deposit and play slot games to receive the first deposit bonus.</p><a href='/slot-first-deposit'>Deposit Now</a></li>",
+    "expected_titles": ["SLOT FIRST DEPOSIT BONUS"]
+  },
+  {
+    "name": "BetMGM welcome code",
+    "url": "https://casino.betmgm.com/en/blog/best-welcome-casino-bonus/",
+    "html": "<article class='blog-offer'><h1>BetMGM Casino Bonus Code - BETMGMCASINOBONUS</h1><p>Welcome bonus details for new casino players. Use the casino bonus code when signing up.</p><a href='/promotions/welcome-offer'>Welcome Offer</a></article>",
+    "expected_titles": ["BetMGM Casino Bonus Code - BETMGMCASINOBONUS"]
+  },
+  {
+    "name": "BetMGM promotions",
+    "url": "https://casino.betmgm.com/en/blog/casino-bonuses-promotions/",
+    "html": "<section class='promotion'><h2>Best Casino Bonuses & Promotions in April 2026</h2><p>Find welcome offers, reload bonuses and free spins at BetMGM Casino.</p><a href='/promotions'>Promotions</a></section>",
+    "expected_titles": ["Best Casino Bonuses & Promotions in April 2026"]
+  },
+  {
+    "name": "Ladbrokes offers",
+    "url": "https://www.ladbrokes.com/en/sports/promotions/all",
+    "html": "<section id='promotions'><h1>Check out the Latest Betting Offers & Promotions</h1><p>Sports promotions, racing offers and casino bonuses for Ladbrokes customers.</p><a href='/en/sports/promotions/welcome'>Join</a></section>",
+    "expected_titles": ["Check out the Latest Betting Offers & Promotions"]
+  },
+  {
+    "name": "Unibet offers",
+    "url": "https://www.unibet.co.uk/promotions",
+    "html": "<section class='bonus-list'><h1>Unibet Bonus | Online Sports, Casino & Poker Offers</h1><p>Sports promotions, racing offers, casino promotions and live casino offers.</p><a href='/promotions/welcome'>View offer</a></section>",
+    "expected_titles": ["Unibet Bonus | Online Sports, Casino & Poker Offers"]
+  }
+]

@@ -1,0 +1,120 @@
+x-app-env: &app-env
+  DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:-change-me}
+  DJANGO_DEBUG: ${DJANGO_DEBUG:-0}
+  DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1,0.0.0.0}
+  POSTGRES_DB: ${POSTGRES_DB:-bonus_platform}
+  POSTGRES_USER: ${POSTGRES_USER:-bonus}
+  POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-bonus}
+  POSTGRES_HOST: postgres
+  POSTGRES_PORT: "5432"
+  REDIS_URL: redis://redis:6379/0
+  CELERY_BROKER_URL: redis://redis:6379/0
+  CELERY_RESULT_BACKEND: redis://redis:6379/0
+  TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+  TELEGRAM_NO_GEO_MODE: ${TELEGRAM_NO_GEO_MODE:-top_per_casino}
+  TELEGRAM_NO_GEO_CASINO_LIMIT: ${TELEGRAM_NO_GEO_CASINO_LIMIT:-3}
+  TELEGRAM_NO_GEO_BONUS_PER_CASINO_LIMIT: ${TELEGRAM_NO_GEO_BONUS_PER_CASINO_LIMIT:-1}
+  TELEGRAM_NO_GEO_CASINO_COMMAND_LIMIT: ${TELEGRAM_NO_GEO_CASINO_COMMAND_LIMIT:-3}
+  DEFAULT_LLM_PROVIDER: ${DEFAULT_LLM_PROVIDER:-openai}
+  OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+  GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+  ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+  LLM_TIMEOUT_SECONDS: ${LLM_TIMEOUT_SECONDS:-60}
+  DEFAULT_PARSER_PROVIDER: ${DEFAULT_PARSER_PROVIDER:-${DEFAULT_LLM_PROVIDER:-openai}}
+  SCRAPER_DEFAULT_TIMEOUT_MS: ${SCRAPER_DEFAULT_TIMEOUT_MS:-60000}
+  SCRAPER_HEADLESS: ${SCRAPER_HEADLESS:-1}
+  PROXY_URLS: ${PROXY_URLS:-}
+  GEO_PROXY_DEFAULT: ${GEO_PROXY_DEFAULT:-}
+  GEO_PROXY_MAP: ${GEO_PROXY_MAP:-}
+  WEBSHARE_API_TOKEN: ${WEBSHARE_API_TOKEN:-}
+  WEBSHARE_PROXY_MODE: ${WEBSHARE_PROXY_MODE:-direct}
+  WEBSHARE_COUNTRY_CODES: ${WEBSHARE_COUNTRY_CODES:-}
+  PUBLIC_PROXY_LIST_URL: ${PUBLIC_PROXY_LIST_URL:-}
+  PUBLIC_PROXY_IMPORT_LIMIT: ${PUBLIC_PROXY_IMPORT_LIMIT:-10}
+  API_MICROSERVICE_URL: ${API_MICROSERVICE_URL:-}
+  SCRAPER_MICROSERVICE_URL: ${SCRAPER_MICROSERVICE_URL:-}
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-bonus_platform}
+      POSTGRES_USER: ${POSTGRES_USER:-bonus}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-bonus}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-bonus} -d ${POSTGRES_DB:-bonus_platform}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build: .
+    environment: *app-env
+    command: sh -c "python manage.py migrate && python manage.py seed_startup_data && python manage.py collectstatic --noinput && gunicorn bonus_project.wsgi:application --bind 0.0.0.0:8000"
+    ports:
+      - "${WEB_PORT:-8000}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://127.0.0.1:8000/admin/login/ || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  telegram:
+    build: .
+    environment: *app-env
+    command: python manage.py run_telegram_bot
+    depends_on:
+      web:
+        condition: service_healthy
+
+  scraper-worker:
+    build: .
+    profiles: ["local-jobs"]
+    environment: *app-env
+    command: celery -A bonus_project worker -Q scraper,default -l info
+    depends_on:
+      web:
+        condition: service_healthy
+
+  ai-worker:
+    build: .
+    profiles: ["local-jobs"]
+    environment: *app-env
+    command: celery -A bonus_project worker -Q ai,default -l info
+    depends_on:
+      web:
+        condition: service_healthy
+
+  beat:
+    build: .
+    profiles: ["local-jobs"]
+    environment: *app-env
+    command: celery -A bonus_project beat -l info
+    depends_on:
+      web:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  redis_data:
